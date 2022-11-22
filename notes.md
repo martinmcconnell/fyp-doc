@@ -15,49 +15,92 @@ list-of-figures: true
 ...
 
 # Abstract
-An analysis of censorship prevalence, it's uses and misues from a socio-political point of view
-and demonstrating alternative technologies to help end-users be more self reliant on open source
-software and try to improve on the technical barrier between new technologies and them. The core
-of the project will revolve around utilising technologies such as IPFS to create an open source
-file-sharing client possibly using the bittorrent style protocol most likely devloped in Golang
-using go-ipfs and orbitdb. This client may also incorporate a bulletin board type system (BBS)
-for idea sharing amongst clients including a small amount of multi-user-dungeon style gaming.
-As a possible aside the repository may also be hosted on IPFS using radicle.xyz.
-For a database i would also like to incorporate GUN.js backend mobile app for accessing services
-securely with encryption this would also host a chat app with a novel design.
 
 # Introduction
 
-## Purpose
-## Intended use and Audience
+## Purpose, Intended Use and Audience
+The purpose of this project is to create a system for the publication of scientific articles which
+can be reviewed publicly where every reviewer is in possession of a digital signature for verification.
+The digital signature will be provided utilising the Metamask wallet browser extension and app, In order
+to log in to the web app and to verify identity to be able to review a wallet must be used, this wallet
+will cryptographically secure each users contributions and will allow for a token to be created as a
+rewards system for all contributions, review, publication.
+The contents of the website are distributed between all members of via IPFS a decentralised system, this
+is where the website will be hosted/distributed.
+
+There is an increased distrust in scientific research in many fields of study and the main purpose of
+this system is to remove the corportate structure of the current journal publication where in many cases
+corporations have been found to create and promote articles with bias towards certain priorities that
+suit the business opportunities of the corporation and not the actual scientific consensus. This feature
+should help restore and build trust.
+
 ## Goals and Requirements
+
+
 ### Goals
+To build a successful prototype and articulate the justification for this project to a universal
+understanding as to why this needs to exist.
+
 ### Requirements
 
 
+
+### Use Case Diagram
+
 # Methodology
+
+## Exploratory Analysis
+
+### Mind Map
+
 The first half of this section is research and an exploration of tech,
 leading to the developmental approach to be taken i.e. Agile, TDD etc.
 
 ## Decentralised
+According to **(IPFS, 2022)** Decentralisation is the downloading of a file or files from many locations
+that are not managed by a single organisation. The fundamental ethos behind decentralisation is the
+creation of a resilient internet where if a service is under attack through a denial of service or
+ransomware attack the service could be disrupted, the modern internet relies on services like Amazon Web
+Services(AWS) to perform quick rerouting and load-balancing in such eventualities but again this is
+reliant on a single entity.
+
+This property of having caches of content distributed globally allows for a protocol where the content
+can be addressed from anywhere including remotely with little to no internet access and from a location
+geographically closer to the device retrieving said content.
+
+There have been many protocols proposed to achieve these fundamental goals.
+
+## Comparing technologies (IPFS, Zeronet, LBRY, BitTorrent)
+
 
 ### peer 2 peer
 
 ### Beaker Browser
+
 #### dat protocol
+
 #### Hyperdrive
 
 ### gun.js
+
 #### end-to-end encryption
+
 #### Distributed Hash Tables
 
-## Blockchain
-### What is a blockchain
-###
-## Comparing technologies (IPFS, Zeronet, LBRY, BitTorrent)
+### Blockchain
+
+#### What is a blockchain
+
+### Metamask
+
+### Interplanetary File System
+
+#### Kubo (Golang on IPFS)
+
 
 
 ## Development cycle?
+
 ### An Agile Approach with Kanban
 Using Trello, Sprints
 
@@ -73,19 +116,7 @@ Release – In this stage, we will release the application in our GitHub reposit
 Deployment – We will deploy the application to the production environment.
 
 Validation and compliance – Your organization’s needs determine the steps to validate a build.
-### Golang on IPFS
 
-### Installing and operating radicle [ To be removed ]
-On Debian/Ubuntu the package manager must be altered by first entering the signing key, then update the
-sources.list file, finally updating and installing via apt.
-
-```sh
-$ curl https://europe-west6-apt.pkg.dev/doc/repo-signing-key.gpg | sudo apt-key add -
-$ echo deb https://europe-west6-apt.pkg.dev/projects/radicle-services radicle-cli main | sudo tee -a /etc/apt/sources.list.d/radicle-registry.list
-$ sudo apt update
-$ sudo apt install radicle-cli
-
-```
 # Results
 
 # Discussion
@@ -96,7 +127,9 @@ $ sudo apt install radicle-cli
 
 # Bibliography
 
-- Benet, J.. (
+- Nakamoto, S. (2006). 'Bitcoin: A Peer-to-Peer Electronic Cash System'. Available at: http://satoshinakamoto.me/bitcoin.pdf (Accessed 18: September 2022)
+
+- Benet, J.. (2014), 'IPFS - Content Addressed, Versioned, P2P File System (DRAFT 3)'. Available at: https://raw.githubusercontent.com/ipfs/papers/master/ipfs-cap2pfs/ipfs-p2p-file-system.pdf (Accessed 19 September 2022)
 
 - Paul Eve, M. (2021) WAREZ, The Infrastructure and Aesthetics of Piracy. Earth, Milky Way, Punctum Books.
 
@@ -110,4 +143,8 @@ $ sudo apt install radicle-cli
 
 - Nisha Jain (2022) EU declares Google Analytics illegal: Here’s why. Available at: https://techstory.in/eu-declares-google-analytics-illegal-heres-why/ (Accessed: 26 September 2022)
 
+- Bluetooth SIG (2019) Bluetooth for Linux Developers, Available at: https://www.bluetooth.com/bluetooth-resources/bluetooth-for-linux/ (Accessed: 21 October 2022)
 
+- Akin Gump Strauss Hauer & Feld (2022) New Privacy Shield Agreement Announced, Available at: https://www.jdsupra.com/legalnews/new-privacy-shield-agreement-announced-9279044/ (Accessed:07 Novemeber 2022)
+
+- IPFS. (2022) 'what is ipfs?' IPFS Docs. Available at: https://docs.ipfs.tech/concepts/what-is-ipfs/#what-is-ipfs (Accessed: November 22, 2022).
