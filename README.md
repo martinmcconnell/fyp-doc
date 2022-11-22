@@ -12,3 +12,7 @@ Then run:
 $ pandoc notes.md -o report.pdf --from markdown --template eisvogel --table-of-contents --highlight-style my_style.theme -V fontsize=10pt
 
 ```
+
+Source code for the project found at:
+
+https://github.com/martinmcconnell/fyp-dev
