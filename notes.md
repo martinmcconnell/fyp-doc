@@ -1,5 +1,5 @@
 ---
-title: "Adapting to Censorship in a Centralised Internet"
+title: "Reaching Scientific Consensus, The Decentralised Opportunity for Trust and Access for All"
 titlepage: true
 titlepage-background: "background1.pdf"
 page-background: "background1.pdf"
