@@ -19,6 +19,7 @@ list-of-figures: true
 # Introduction
 
 ## Purpose, Intended Use and Audience
+
 The purpose of this project is to create a system for the publication of scientific articles which
 can be reviewed publicly where every reviewer is in possession of a digital signature for verification.
 The digital signature will be provided utilising the Metamask wallet browser extension and app, In order
@@ -28,14 +29,13 @@ rewards system for all contributions, review, publication.
 The contents of the website are distributed between all members of via IPFS a decentralised system, this
 is where the website will be hosted/distributed.
 
-There is an increased distrust in scientific research in many fields of study and the main purpose of
-this system is to remove the corportate structure of the current journal publication where in many cases
-corporations have been found to create and promote articles with bias towards certain priorities that
-suit the business opportunities of the corporation and not the actual scientific consensus. This feature
-should help restore and build trust.
+According to **(Andrew et al., 2022)** There is an increased distrust in scientific research in many fields
+of study and the main purpose of this system is to remove the corportate structure of the current journal
+publication where in many cases corporations have been found to create and promote articles with bias
+towards certain priorities that suit the business opportunities of the corporation and not the actual
+scientific consensus. This feature should help restore and build trust.
 
 ## Goals and Requirements
-
 
 ### Goals
 To build a successful prototype and articulate the justification for this project to a universal
@@ -43,15 +43,7 @@ understanding as to why this needs to exist.
 
 ### Requirements
 
-
-
-### Use Case Diagram
-
-# Methodology
-
-## Exploratory Analysis
-
-### Mind Map
+# Exploratory Analysis
 
 The first half of this section is research and an exploration of tech,
 leading to the developmental approach to be taken i.e. Agile, TDD etc.
@@ -59,10 +51,10 @@ leading to the developmental approach to be taken i.e. Agile, TDD etc.
 ## Decentralised
 According to **(IPFS, 2022)** Decentralisation is the downloading of a file or files from many locations
 that are not managed by a single organisation. The fundamental ethos behind decentralisation is the
-creation of a resilient internet where if a service is under attack through a denial of service or
-ransomware attack the service could be disrupted, the modern internet relies on services like Amazon Web
-Services(AWS) to perform quick rerouting and load-balancing in such eventualities but again this is
-reliant on a single entity.
+creation of a resilient internet where for instance if a service is under attack on the current centralised
+internet through a denial of service or ransomware attack the service could be disrupted, the modern
+internet relies on services like Amazon Web Services(AWS) to perform quick rerouting and load-balancing in
+such eventualities but again this is reliant on a single entity.
 
 This property of having caches of content distributed globally allows for a protocol where the content
 can be addressed from anywhere including remotely with little to no internet access and from a location
@@ -72,7 +64,6 @@ There have been many protocols proposed to achieve these fundamental goals.
 
 ## Comparing technologies (IPFS, Zeronet, LBRY, BitTorrent)
 
-
 ### peer 2 peer
 
 ### Beaker Browser
@@ -81,13 +72,18 @@ There have been many protocols proposed to achieve these fundamental goals.
 
 #### Hyperdrive
 
-### gun.js
+### Gun.js
 
 #### end-to-end encryption
 
 #### Distributed Hash Tables
 
 ### Blockchain
+
+#### Smart Contracts and Solidity
+
+
+#### Ethers.js
 
 #### What is a blockchain
 
@@ -99,7 +95,20 @@ There have been many protocols proposed to achieve these fundamental goals.
 
 
 
+
+
+
+
+
+
+
+
+
+# Methodology
+
 ## Development cycle?
+
+### Use Case Diagram
 
 ### An Agile Approach with Kanban
 Using Trello, Sprints
@@ -148,3 +157,5 @@ Validation and compliance – Your organization’s needs determine the steps to
 - Akin Gump Strauss Hauer & Feld (2022) New Privacy Shield Agreement Announced, Available at: https://www.jdsupra.com/legalnews/new-privacy-shield-agreement-announced-9279044/ (Accessed:07 Novemeber 2022)
 
 - IPFS. (2022) 'what is ipfs?' IPFS Docs. Available at: https://docs.ipfs.tech/concepts/what-is-ipfs/#what-is-ipfs (Accessed: November 22, 2022).
+
+- Andrew et al. (2022) Statistical Modeling, causal inference, and social science, Statistical Modeling Causal Inference and Social Science. Available at: https://statmodeling.stat.columbia.edu/2022/10/30/distrust-in-science/ (Accessed: November 26, 2022).
