@@ -40,7 +40,15 @@ According to **(Chow & Birdwell, 2022)** There is an increased distrust in scien
 fields of study and the main purpose of this system is to remove the corporate structure of the
 current journal publication where in many cases corporations have been found to create and promote
 articles with bias towards certain priorities that suit the business opportunities of the corporation
-and not the actual scientific consensus. This feature should help restore and build trust.
+and not the actual scientific consensus.
+
+Originally coined by Nick Szabo "Smart Contracts" are electorinc agreements that are immutable and transparent,
+deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
+the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
+contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
+by moving the actions of reviewers amd researchers to a proof-of-work model on a blockchain. A side benefit to
+this is there will be no need for a subscription/fee based model for accessing research as the researchers
+themselves will own the rights to their own work by staking them on the blockchain.
 
 ## Goals and Requirements
 
