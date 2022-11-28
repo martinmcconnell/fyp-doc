@@ -20,6 +20,13 @@ list-of-figures: true
 
 ## Purpose, Intended Use and Audience
 
+Before the internet distribution of academic articles to a global audience was extremely difficult, it
+required proof-reading, typesetting, printing and distribution. However since the ubiquity of the Internet
+the majority of tasks performed by publishers has shrunk enormously, in fact publishers now expect
+researchers to submit digital copies of their work tat require no further typesetting or processing and
+as for digital distribution printing has become unnecessary. Copying is now simple and free and worldwide
+distribution is instantaneous online. **(Taylor, 2012)**
+
 The purpose of this project is to create a system for the publication of scientific articles which
 can be reviewed publicly where every reviewer is in possession of a digital signature for verification.
 The digital signature will be provided utilising the Metamask wallet browser extension and app, In order
@@ -29,15 +36,20 @@ rewards system for all contributions, review, publication.
 The contents of the website are distributed between all members of via IPFS a decentralised system, this
 is where the website will be hosted/distributed.
 
-According to **(Andrew et al., 2022)** There is an increased distrust in scientific research in many fields
-of study and the main purpose of this system is to remove the corportate structure of the current journal
-publication where in many cases corporations have been found to create and promote articles with bias
-towards certain priorities that suit the business opportunities of the corporation and not the actual
-scientific consensus. This feature should help restore and build trust.
+According to **(Chow & Birdwell, 2022)** There is an increased distrust in scientific research in many
+fields of study and the main purpose of this system is to remove the corporate structure of the
+current journal publication where in many cases corporations have been found to create and promote
+articles with bias towards certain priorities that suit the business opportunities of the corporation
+and not the actual scientific consensus. This feature should help restore and build trust.
 
 ## Goals and Requirements
 
 ### Goals
+"The European Universities Association (EUA) found that overall expenditure by 26 European countries was
+€597 million (£515 million) in 2017. But 75% of that – some €451 million – was spent on subscriptions to
+journals published by the ‘big five’: Elsevier, Springer Nature, Wiley, Taylor & Francis and the American
+Chemical Society (ACS)" **(Mehta, 2019)**.
+
 To build a successful prototype and articulate the justification for this project to a universal
 understanding as to why this needs to exist.
 
@@ -73,6 +85,10 @@ There have been many protocols proposed to achieve these fundamental goals.
 #### Hyperdrive
 
 ### Gun.js
+Gun.js, created by Mark Nadal,
+
+The contents of the website are distributed between all members of via  a decentralised system, this
+is where the website will be hosted/distributed.
 
 #### end-to-end encryption
 
@@ -159,3 +175,9 @@ Validation and compliance – Your organization’s needs determine the steps to
 - IPFS. (2022) 'what is ipfs?' IPFS Docs. Available at: https://docs.ipfs.tech/concepts/what-is-ipfs/#what-is-ipfs (Accessed: November 22, 2022).
 
 - Andrew et al. (2022) Statistical Modeling, causal inference, and social science, Statistical Modeling Causal Inference and Social Science. Available at: https://statmodeling.stat.columbia.edu/2022/10/30/distrust-in-science/ (Accessed: November 26, 2022).
+
+- Taylor, Mike (21 February 2012). "It's Not Academic: How Publishers Are Squelching Science Communication". Discover. Available at: https://web.archive.org/web/20220521122023/https://www.discovermagazine.com/planet-earth/its-not-academic-how-publishers-are-squelching-science-communication/ (Accessed:28 November 2022)
+
+- Mehta, Angela (2019). "75% of European spending on scientific journals goes to ‘big five’ publishers". Available at: https://web.archive.org/web/20221030103117/https://www.chemistryworld.com/news/75-of-european-spending-on-scientific-journals-goes-to-big-five-publishers/4010616.article/ (Accessed 28 November 2022)
+
+- Chow, M. and Birdwell, J. (no date) Confidence in research: Researchers in the spotlight. Available at: https://impact.economist.com/projects/confidence-in-research/pdfs/Confidence_in_Research-full_report.pdf (Accessed: November 28, 2022).
