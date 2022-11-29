@@ -16,6 +16,17 @@ list-of-figures: true
 
 # Abstract
 
+// Temporary //
+
+The purpose of this project is to create a system for the publication of scientific articles which
+can be reviewed publicly where every reviewer is in possession of a digital signature for verification.
+Utilising the Metamask wallet browser extension and app, In order
+to log in to the web app and to verify identity, this wallet secures each users contributions
+
+The contents of the website are distributed between all members of via IPFS a decentralised system, this
+is where the website will be hosted/distributed.
+
+
 # Introduction
 "In economics, a public good is a good that is both non-excludable and
 non-rivalrous. For such goods, users cannot be barred from accessing or using
@@ -23,8 +34,8 @@ them for failing to pay for them. Also, use by one person neither prevents
 access of other people nor does it reduce availability to others."
 **(Oakland, 1987)**
 
-Non-excludability means it is made impossible to exclude and individual
-from consuming the good. It is possible tp create excludability by means
+Non-excludability means it is made impossible to exclude any individual
+from consuming the good. It is possible to create excludability by means
 of pay-walls and membership only access.
 
 Non-rivalrous, is the accessibilty of a product or good that in the
@@ -36,18 +47,9 @@ this manner a digital good can be classified as such.
 Before the internet distribution of academic articles to a global audience was extremely difficult, it
 required proof-reading, typesetting, printing and distribution. However since the ubiquity of the Internet
 the majority of tasks performed by publishers has shrunk enormously, in fact publishers now expect
-researchers to submit digital copies of their work tat require no further typesetting or processing and
+researchers to submit digital copies of their work that require no further typesetting or processing and
 as for digital distribution printing has become unnecessary. Copying is now simple and free and worldwide
 distribution is instantaneous online. **(Taylor, 2012)**
-
-The purpose of this project is to create a system for the publication of scientific articles which
-can be reviewed publicly where every reviewer is in possession of a digital signature for verification.
-The digital signature will be provided utilising the Metamask wallet browser extension and app, In order
-to log in to the web app and to verify identity to be able to review a wallet must be used, this wallet
-will cryptographically secure each users contributions and will allow for a token to be created as a
-rewards system for all contributions, review, publication.
-The contents of the website are distributed between all members of via IPFS a decentralised system, this
-is where the website will be hosted/distributed.
 
 According to **(Chow & Birdwell, 2022)** There is an increased distrust in scientific research in many
 fields of study and the main purpose of this system is to remove the corporate and empirical structure of the
@@ -63,13 +65,8 @@ methods can be another strategy that corporations use for their benefit
 to raise doubts about the methods used in non-industry sponsored research
 **(Fabbri et al., 2018)**..
 
-Originally coined by Nick Szabo "Smart Contracts" are electronnc agreements that are immutable and transparent,
-deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
-the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
-contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
-by moving the actions of reviewers amd researchers to a proof-of-work model on a blockchain. A side benefit to
-this is there will be no need for a subscription/fee based model for accessing research as the researchers
-themselves will own the rights to their own work by staking them on the blockchain.
+It has become necessary to provide an alternative to the profit driven publications
+which provide no tangible system to counteract the manipulation by corporations.
 
 "The European Universities Association (EUA) found that overall expenditure by 26 European countries was
 €597 million (£515 million) in 2017. But 75% of that – some €451 million – was spent on subscriptions to
@@ -80,6 +77,18 @@ With all this in mind it is clear that there is a necessity for Academic Journal
 Reform. For better access, trust and incentive to contribute to the archive of journals
 for everyone's benefit.
 
+Originally coined by Nick Szabo "Smart Contracts" are electronnc agreements that are immutable and transparent,
+deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
+the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
+contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
+by moving the actions of reviewers amd researchers to a proof-of-work model on a blockchain. Benefits of
+this is there will be no need for a subscription/fee based model for accessing research as the researchers
+themselves will own the rights to their own work by staking them on the blockchain and also researchers and
+Academics will be able to earn passive income off the favourable and positive contributions to the emerging
+consensus.
+
+At the moment the peer-review process is centralised in the hands of the publishers. Should this process
+be decentralised...........it'll be interesting ot see what happens.
 
 ## Goals and Requirements
 
