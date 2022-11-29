@@ -66,15 +66,23 @@ themselves will own the rights to their own work by staking them on the blockcha
 "The European Universities Association (EUA) found that overall expenditure by 26 European countries was
 €597 million (£515 million) in 2017. But 75% of that – some €451 million – was spent on subscriptions to
 journals published by the ‘big five’: Elsevier, Springer Nature, Wiley, Taylor & Francis and the American
-Chemical Society (ACS)" **(Mehta, 2019)**. From this It is clear that there is
-a necessity for Academic Journal Publishing Reform.
+Chemical Society (ACS)" **(Mehta, 2019)**.
+
+With all this in mind it is clear that there is a necessity for Academic Journal Publishing
+Reform. For better access, trust and incentive to contribute to the archive of journals
+for everyone's benefit.
 
 
 ## Goals and Requirements
 
 ### Goals
-To build a successful prototype and articulate the justification for this project to a universal
-understanding as to why this needs to exist.
+The goal of this project is to contribute to Academic Journal Publishing Reform
+taking advantage of the internet in the distribution of Academic Journals and
+decentralised applications to support the reviewing process and in the increase
+in trust via the "Smart Contract" mechanism in the Ethereum Virtual Machine
+running on the Ethereum Blockchain.
+
+
 
 ### Requirements
 
