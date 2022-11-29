@@ -1,5 +1,5 @@
 ---
-title: "Reaching Scientific Consensus, The Decentralised Opportunity for Trust and Access for All"
+title: "Reaching Scientific Consensus, The Decentralised Opportunity for Trust and Access"
 titlepage: true
 titlepage-background: "background1.pdf"
 page-background: "background1.pdf"
@@ -17,6 +17,19 @@ list-of-figures: true
 # Abstract
 
 # Introduction
+In economics, a public good is a good that is both non-excludable and
+non-rivalrous. For such goods, users cannot be barred from accessing or using
+them for failing to pay for them. Also, use by one person neither prevents
+access of other people nor does it reduce availability to others
+**(Oakland, 1987)**
+
+Non-excludability means it is made impossible to exclude and individual
+from consuming the good. It is possible tp create excludability by means
+of pay-walls and membership only access.
+
+Non-rivalrous, is the accessibilty of a product or good that in the
+consumption does not affect the availability for subsequent use, In
+this manner a digital good can be classified as such.
 
 ## Purpose, Intended Use and Audience
 
@@ -42,7 +55,7 @@ current journal publication where in many cases corporations have been found to 
 articles with bias towards certain priorities that suit the business opportunities of the corporation
 and not the actual scientific consensus.
 
-Originally coined by Nick Szabo "Smart Contracts" are electorinc agreements that are immutable and transparent,
+Originally coined by Nick Szabo "Smart Contracts" are electronnc agreements that are immutable and transparent,
 deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
 the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
 contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
@@ -50,14 +63,16 @@ by moving the actions of reviewers amd researchers to a proof-of-work model on a
 this is there will be no need for a subscription/fee based model for accessing research as the researchers
 themselves will own the rights to their own work by staking them on the blockchain.
 
-## Goals and Requirements
-
-### Goals
 "The European Universities Association (EUA) found that overall expenditure by 26 European countries was
 €597 million (£515 million) in 2017. But 75% of that – some €451 million – was spent on subscriptions to
 journals published by the ‘big five’: Elsevier, Springer Nature, Wiley, Taylor & Francis and the American
-Chemical Society (ACS)" **(Mehta, 2019)**.
+Chemical Society (ACS)" **(Mehta, 2019)**. From this It is clear that there is
+a necessity for Academic Journal Publishing Reform.
 
+
+## Goals and Requirements
+
+### Goals
 To build a successful prototype and articulate the justification for this project to a universal
 understanding as to why this needs to exist.
 
@@ -92,30 +107,44 @@ There have been many protocols proposed to achieve these fundamental goals.
 
 #### Hyperdrive
 
-### Gun.js
+### Interplanetary File System
+
+#### Kubo (Golang on IPFS)
+
+
+### Databases
+
+#### Gun.js
+
 Gun.js, created by Mark Nadal,
 
 The contents of the website are distributed between all members of via  a decentralised system, this
 is where the website will be hosted/distributed.
 
-#### end-to-end encryption
+#### OrbitDB
+
+OrbitDB uses IPFS as a data store in a distributed, serverless p2p database.
+
+#### ThreadDB
+
 
 #### Distributed Hash Tables
 
 ### Blockchain
 
+#### What is blockchain
+
+#### Ethereum
+
+##### Ethers.js
+
+
+
 #### Smart Contracts and Solidity
 
 
-#### Ethers.js
-
-#### What is a blockchain
 
 ### Metamask
-
-### Interplanetary File System
-
-#### Kubo (Golang on IPFS)
 
 
 
@@ -189,3 +218,5 @@ Validation and compliance – Your organization’s needs determine the steps to
 - Mehta, Angela (2019). "75% of European spending on scientific journals goes to ‘big five’ publishers". Available at: https://web.archive.org/web/20221030103117/https://www.chemistryworld.com/news/75-of-european-spending-on-scientific-journals-goes-to-big-five-publishers/4010616.article/ (Accessed 28 November 2022)
 
 - Chow, M. and Birdwell, J. (no date) Confidence in research: Researchers in the spotlight. Available at: https://impact.economist.com/projects/confidence-in-research/pdfs/Confidence_in_Research-full_report.pdf (Accessed: November 28, 2022).
+
+- Oakland, W. H. (1987). Theory of public goods. In Handbook of public economics (Vol. 2, pp. 485-535). Elsevier
