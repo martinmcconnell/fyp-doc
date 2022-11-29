@@ -17,10 +17,10 @@ list-of-figures: true
 # Abstract
 
 # Introduction
-In economics, a public good is a good that is both non-excludable and
+"In economics, a public good is a good that is both non-excludable and
 non-rivalrous. For such goods, users cannot be barred from accessing or using
 them for failing to pay for them. Also, use by one person neither prevents
-access of other people nor does it reduce availability to others
+access of other people nor does it reduce availability to others."
 **(Oakland, 1987)**
 
 Non-excludability means it is made impossible to exclude and individual
