@@ -50,10 +50,18 @@ The contents of the website are distributed between all members of via IPFS a de
 is where the website will be hosted/distributed.
 
 According to **(Chow & Birdwell, 2022)** There is an increased distrust in scientific research in many
-fields of study and the main purpose of this system is to remove the corporate structure of the
+fields of study and the main purpose of this system is to remove the corporate and empirical structure of the
 current journal publication where in many cases corporations have been found to create and promote
 articles with bias towards certain priorities that suit the business opportunities of the corporation
 and not the actual scientific consensus.
+
+For example in Coca-Cola and Mars sponsored research
+publications appear to skew the evidence towards solutions that favour
+industry interests by focusing on food components that can be manipulated
+and marketed by food companies. Shaping the debate around scientific
+methods can be another strategy that corporations use for their benefit
+to raise doubts about the methods used in non-industry sponsored research
+**(Fabbri et al., 2018)**..
 
 Originally coined by Nick Szabo "Smart Contracts" are electronnc agreements that are immutable and transparent,
 deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
@@ -99,67 +107,54 @@ internet through a denial of service or ransomware attack the service could be d
 internet relies on services like Amazon Web Services(AWS) to perform quick rerouting and load-balancing in
 such eventualities but again this is reliant on a single entity.
 
+The driving force behind decentralised systems is to create a fast,
+more secure web **(Nnakwue, 2021)**. Typically a decentralised app
+relies on a distributed computing model where system components run using a
+peer-to-peer network. Where all files can be replicated or synced amongst
+other peers residing on the same network **(Nnakwue, 2021)**
+
 This property of having caches of content distributed globally allows for a protocol where the content
 can be addressed from anywhere including remotely with little to no internet access and from a location
 geographically closer to the device retrieving said content.
 
 There have been many protocols proposed to achieve these fundamental goals.
 
-## Comparing technologies (IPFS, Zeronet, LBRY, BitTorrent)
 
-### peer 2 peer
-
-### Beaker Browser
-
-#### dat protocol
-
-#### Hyperdrive
-
-### Interplanetary File System
-
-#### Kubo (Golang on IPFS)
+## peer 2 peer, P2P
 
 
-### Databases
+## Interplanetary File System
 
-#### Gun.js
+### Content Identifiers
+
+### Distributed Hash Tables
+
+### Kubo (Golang on IPFS)
+
+## Databases
+### Gun.js
 
 Gun.js, created by Mark Nadal,
 
 The contents of the website are distributed between all members of via  a decentralised system, this
 is where the website will be hosted/distributed.
 
-#### OrbitDB
+### OrbitDB
+ **(Nnakwue, 2021)**
 
 OrbitDB uses IPFS as a data store in a distributed, serverless p2p database.
 
-#### ThreadDB
+### ThreadDB
 
+## Blockchain
 
-#### Distributed Hash Tables
+### Ethereum
 
-### Blockchain
-
-#### What is blockchain
-
-#### Ethereum
-
-##### Ethers.js
-
-
-
-#### Smart Contracts and Solidity
-
-
+### Ethers.js
 
 ### Metamask
 
-
-
-
-
-
-
+## Smart Contracts and Solidity
 
 
 
@@ -227,4 +222,7 @@ Validation and compliance – Your organization’s needs determine the steps to
 
 - Chow, M. and Birdwell, J. (no date) Confidence in research: Researchers in the spotlight. Available at: https://impact.economist.com/projects/confidence-in-research/pdfs/Confidence_in_Research-full_report.pdf (Accessed: November 28, 2022).
 
+- Nnakwue, A. (2021) A guide to working with orbitdb in Node.js, LogRocket Blog. Available at: https://blog.logrocket.com/guide-to-orbitdb-node-js/ (Accessed: November 29, 2022).
 - Oakland, W. H. (1987). Theory of public goods. In Handbook of public economics (Vol. 2, pp. 485-535). Elsevier
+
+- Fabbri, A., Holland, T.J. and Bero, L.A. (2018) Food Industry sponsorship of academic research: Investigating commercial bias in the Research Agenda: Public Health Nutrition, Cambridge Core. Cambridge University Press. Available at: https://www.cambridge.org/core/journals/public-health-nutrition/article/food-industry-sponsorship-of-academic-research-investigating-commercial-bias-in-the-research-agenda/A4D9C0DC429218D5EFDFBE80FAE5E087 (Accessed: November 29, 2022).
