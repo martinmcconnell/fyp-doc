@@ -88,7 +88,58 @@ Academics will be able to earn passive income off the favourable and positive co
 consensus.
 
 At the moment the peer-review process is centralised in the hands of the publishers. Should this process
-be decentralised...........it'll be interesting ot see what happens.
+be decentralised...........it'll be interesting to see what happens.
+
+## The peer-reviewing process
+So, peer review generally works like this;
+
+You write a paper and submit it to a journal.
+
+The editor who is put in charge of your paper selects a number of other
+researchers to offer your paper to. You have some say as to who you want the
+reviewers to be (e.g. you can explicitly ask the editor not to have certain
+other authors review your work, and you can also explicitly ask for certain
+reviewers), and in some cases the journal will explicitly ask you for a list
+of potential reviewers, but final authority comes down to the editor.
+
+The reviewers read and critique the paper, send their recommendations back to
+the editor, who then returns the information to the authors along with their
+decision as to publication (typically, the editors request specific revisions
+prior to publication).
+
+You make revisions, and return the paper to the editor, who then will make the
+final call as to publication (typically, this is dependent on you addressing
+all of the various concerns of the reviewers).
+
+This obviously has a lot of room for problems, and you have to trust the
+journals to do their due diligence and ensure the process works out
+correctly. So, the reputation of the journal is the key to judging the
+works published in said journal. Furthermore, many journals group themselves
+into one of the bigger publishing houses (like Elseveir, Springer,
+Taylor & Francis, etc.), and those publishers like to keep their journals
+in top shape.
+
+Granted, many journals have issues and often a pay-to-play journal.
+These journals have what is typically branded as "expedited peer review,"
+which is literally just the editor checking for grammatical mistakes. The
+authors then pay a fee to publish the paper, typically marketed as a fee to
+publish open-source.
+
+In addition, many "open-source" journals (particularly in engineering fields)
+are patent and IP trolls; you publish your work open-source with them, pay a
+lower fee than the pay-to-play junk journals, but in the process you sign over
+all potential IP from the work, and the paper itself never really gets
+published in any major journals, but instead gets presented at a scam
+conference that you have to pay an exorbitant fee to attend.
+
+Ultimately; it's all built on reputation. Check the journal's impact factor
+(which is a very rough way to judge the likelihood that a journal's paper
+will be cited) against other journals in that field (and don't compare across
+fields. Also check the publishers, as well as the location where the journal
+is published.
+
+The other good rule of thumb is the reference list of any given paper, and
+the journals that those references are published in.
 
 ## Goals and Requirements
 
