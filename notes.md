@@ -57,7 +57,7 @@ current journal publication where in many cases corporations have been found to 
 articles with bias towards certain priorities that suit the business opportunities of the corporation
 and not the actual scientific consensus.
 
-For example in Coca-Cola and Mars sponsored research
+For example in Coca-Cola and Mars sponsored research,
 publications appear to skew the evidence towards solutions that favour
 industry interests by focusing on food components that can be manipulated
 and marketed by food companies. Shaping the debate around scientific
