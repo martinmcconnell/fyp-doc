@@ -185,30 +185,30 @@ The concept of peer-to-peer technology dates back to the early days of networkin
 
 In the early 1990s, the first peer-to-peer file sharing networks began to emerge, allowing users to share and download files directly from each other's computers. This proved to be a popular and efficient way to share files, but it also led to the widespread sharing of copyrighted material, which sparked controversy and legal battles.
 
-In recent years, peer-to-peer technology has continued to evolve and is now used in a variety of applications, including social networking, streaming video, and distributed computing. It is also a key component of blockchain technology, which allows decentralized networks to operate without a central authority.
+In recent years, peer-to-peer technology has continued to evolve and is now used in a variety of applications, including social networking, streaming video, and distributed computing. It is also a key component of blockchain technology, which allows decentralised networks to operate without a central authority.
 
 Overall, peer-to-peer technology has a rich history and continues to play a significant role in the development of networking and computing technology.
 
 ## Interplanetary File System
-The Interplanetary File System, or IPFS, is a decentralized, peer-to-peer protocol for sharing and storing files. It was developed by Protocol Labs, a research, development, and deployment laboratory, in 2015.
+The Interplanetary File System, or IPFS, is a decentralised, peer-to-peer protocol for sharing and storing files. It was developed by Protocol Labs, a research, development, and deployment laboratory, in 2015.
 
 IPFS is based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash." This allows IPFS to distribute and replicate data across multiple nodes, making it more resilient and efficient than traditional centralized systems.
 
-Since its launch, IPFS has gained a significant amount of interest and adoption in the blockchain and decentralized web communities. It has also been used in a variety of applications, including file sharing, content distribution, and distributed computing.
+Since its launch, IPFS has gained a significant amount of interest and adoption in the blockchain and decentralised web communities. It has also been used in a variety of applications, including file sharing, content distribution, and distributed computing.
 
-Overall, the development of IPFS has been an important advancement in decentralized, peer-to-peer technology, and it continues to be an active area of research and development.
+Overall, the development of IPFS has been an important advancement in decentralised, peer-to-peer technology, and it continues to be an active area of research and development.
 
 ### Content Identifier and Distributed Hash Tables
-Content identifiers, or CIDs, are unique identifiers used by the Interplanetary File System (IPFS) to identify and locate data in a decentralized network. They are based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash."
+Content identifiers, or CIDs, are unique identifiers used by the Interplanetary File System (IPFS) to identify and locate data in a decentralised network. They are based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash."
 
 CIDs are a key component of IPFS, as they allow users to access and share data without the need for a central authority or server. They are also used to ensure that data is stored and accessed in a consistent and reliable manner across the network.
 
 CIDs are typically represented as a string of characters that begin with "Qm" followed by a series of numbers and letters. They are generated using a cryptographic hash function, which ensures that they are unique and cannot be easily tampered with.
 
-Overall, CIDs are an essential part of the IPFS protocol and enable its decentralized, peer-to-peer nature.
+Overall, CIDs are an essential part of the IPFS protocol and enable its decentralised, peer-to-peer nature.
 
 ### Kubo (Golang on IPFS)
-go-ipfs, now called Kubo, is an implementation of the Interplanetary File System (IPFS) written in the Go programming language. It is a decentralized, peer-to-peer protocol for sharing and storing files, and it is designed to be scalable, efficient, and secure.
+go-ipfs, now called Kubo, is an implementation of the Interplanetary File System (IPFS) written in the Go programming language. It is a decentralised, peer-to-peer protocol for sharing and storing files, and it is designed to be scalable, efficient, and secure.
 
 go-ipfs is developed and maintained by Protocol Labs, the creators of IPFS. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
 
@@ -219,16 +219,16 @@ Overall, go-ipfs is an important component of the IPFS ecosystem, providing a hi
 ## Databases
 
 ### OrbitDB
-OrbitDB is a distributed, peer-to-peer database built on top of the Interplanetary File System (IPFS). It is designed to be scalable, efficient, and secure, and it uses a key-value data model to store and retrieve data in a decentralized network.
+OrbitDB is a distributed, peer-to-peer database built on top of the Interplanetary File System (IPFS). It is designed to be scalable, efficient, and secure, and it uses a key-value data model to store and retrieve data in a decentralised network.
 
-OrbitDB is developed and maintained by the team at 3box, a company that focuses on decentralized identity and storage solutions. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
+OrbitDB is developed and maintained by the team at 3box, a company that focuses on decentralised identity and storage solutions. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
 
 OrbitDB has a number of unique features and advantages, including built-in conflict resolution and event logging, which allows for easy synchronization and collaboration. It also has support for various data types, including JSON, string, and binary, making it versatile and easy to use.
 
-Overall, OrbitDB is a powerful and innovative database solution that is well-suited for decentralized and peer-to-peer applications. **(3box, n.d.)**
+Overall, OrbitDB is a powerful and innovative database solution that is well-suited for decentralised and peer-to-peer applications. **(3box, n.d.)**
 
 ## Blockchain
-Blockchain is a distributed, decentralized, digital ledger that is used to record and verify transactions in a secure and transparent manner that uses a chain of cryptographic hashes to store and verify transactions. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, and it has a number of important characteristics and features.. It is typically implemented as a chain of blocks, where each block contains a number of transactions and a cryptographic "hash" that links it to the previous block in the chain.
+Blockchain is a distributed, decentralised, digital ledger that is used to record and verify transactions in a secure and transparent manner that uses a chain of cryptographic hashes to store and verify transactions. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, and it has a number of important characteristics and features.. It is typically implemented as a chain of blocks, where each block contains a number of transactions and a cryptographic "hash" that links it to the previous block in the chain.
 
 A blockchain is composed of a series of blocks, each of which contains a set of transactions. These transactions are verified and validated by a network of nodes, which use consensus algorithms to ensure that the data in the blockchain is accurate and consistent.
 
@@ -236,7 +236,7 @@ The fundamental property of a blockchain is its immutability, which means that o
 
 Each block in a blockchain is linked to the previous block through the use of a cryptographic hash, which ensures the integrity and security of the data in the chain. This allows for a tamper-evident and immutable ledger, as any attempts to alter or manipulate the data in a block would be easily detected.
 
-Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralized model allows for greater transparency, security, and resilience, as it is not dependent on any single entity.
+Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralised model allows for greater transparency, security, and resilience, as it is not dependent on any single entity.
 
 Blockchain also uses public-key cryptography to secure transactions and protect user privacy. Each user in a blockchain network has a unique pair of keys, a public key and a private key, which are used to sign and verify transactions. This ensures that only the user with the corresponding private key can access and control their data in the blockchain.
 
@@ -245,7 +245,7 @@ Overall, blockchain is a powerful and innovative technology that has the potenti
 ### Consensus algorithms
 A consensus algorithm is a mathematical protocol that is used by nodes in a distributed network to reach agreement on the contents of a blockchain. It is an essential part of the blockchain, as it ensures that the data in the blockchain is accurate and consistent across all nodes in the network.
 
-Consensus algorithms can take many forms, but they all share the same goal of allowing nodes in the network to reach agreement on the state of the blockchain in a decentralized and trustless manner.
+Consensus algorithms can take many forms, but they all share the same goal of allowing nodes in the network to reach agreement on the state of the blockchain in a decentralised and trustless manner.
 
 One common example of a consensus algorithm is proof-of-work (PoW), which is used by the Bitcoin network. In a PoW-based blockchain, nodes compete to solve a mathematical puzzle by hashing a block of transactions and trying to find a solution that meets a certain criteria. The first node to find a valid solution is allowed to add the block to the blockchain and is rewarded with a certain number of tokens.
 
@@ -253,7 +253,7 @@ Another example of a consensus algorithm is proof-of-stake (PoS), which is used 
 
 Overall, consensus algorithms are a crucial part of the blockchain, as they allow nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
 
-The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralized and trustless manner.
+The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralised and trustless manner.
 
 The mathematical puzzle that is solved by the nodes in a PoW-based blockchain is typically a computational problem that is difficult to solve but easy to verify. For example, the Bitcoin network uses a problem called the "double SHA-256" hash, which requires nodes to find a number that, when hashed twice with the SHA-256 algorithm, produces a result that is less than a certain target value.
 
@@ -273,7 +273,7 @@ Once a smart contract is deployed on the Ethereum blockchain, it is stored and e
 
 Solidity has a number of important features and characteristics that make it well-suited for writing smart contracts. It has support for various data types, including integers, booleans, and arrays, and it also has support for inheritance and contract abstractions.
 
-Smart contracts and Solidity are powerful tools for implementing and executing self-executing contracts on the Ethereum blockchain. They enable the creation of complex and decentralized applications that can automate a wide range of business processes and interactions.
+Smart contracts and Solidity are powerful tools for implementing and executing self-executing contracts on the Ethereum blockchain. They enable the creation of complex and decentralised applications that can automate a wide range of business processes and interactions.
 
 # Methodology
 It is possible to create a scientific journal publication on the Ethereum blockchain using smart contracts in peer review. This would involve implementing a smart contract that allows researchers to submit their papers to the journal, and a peer review process that is managed and enforced by the contract.
@@ -284,13 +284,14 @@ To create a scientific journal on the Ethereum blockchain, the following steps c
 
 - Implement a peer review process in the contract, which allows reviewers to evaluate the papers and provide feedback and ratings. This could be done using a voting system, where reviewers cast their votes on the quality and relevance of the papers.
 
-- Integrate the contract with a decentralized storage solution, such as IPFS (Interplanetary File System), to store and distribute the papers in a decentralized and secure manner.
+- Integrate the contract with a decentralised storage solution, such as IPFS (Interplanetary File System), to store and distribute the papers in a decentralised and secure manner.
 
 - Provide a user-friendly interface, such as a web application or mobile app, that allows researchers to submit their papers to the journal and track the progress of the peer review process.
 
 - Promote the journal and its benefits to the scientific community, and encourage researchers to submit their papers and participate in the peer review process.
 
-Creating a scientific journal on the Ethereum blockchain using smart contracts in peer review would provide a decentralized, secure, and transparent platform for publishing and reviewing scientific papers. It could help to improve the efficiency and quality of the peer review process, and provide new opportunities for collaboration and dissemination of scientific knowledge.
+Creating a scientific journal on the Ethereum blockchain using smart contracts in peer review would provide a decentralised, secure, and transparent platform for publishing and reviewing scientific papers. It could help to improve the efficiency and quality of the peer review process, and provide new opportunities for collaboration and dissemination of scientific knowledge.
+
 ## Development cycle?
 
 ### Use Case Diagram
@@ -300,13 +301,13 @@ In this diagram, the main actors are the Researchers, who submit their papers to
 
 The main use cases in this diagram are:
 
-- Submit paper: The researcher submits a paper to the journal, and the contract validates the submission and stores the paper in a decentralized storage solution.
+- Submit paper: The researcher submits a paper to the journal, and the contract validates the submission and stores the paper in a decentralised storage solution.
 
 - Review paper: The reviewer evaluates the paper and provides feedback and ratings, and the contract records the review and updates the status of the paper.
 
 - Publish paper: After the review process is complete, the contract determines if the paper meets the requirements for publication and adds it to the journal.
 
-The "Decentralized Storage" is an optional component that can be used to store and distribute the papers in a decentralized and secure manner. The "Interface" is another optional component that provides a user-friendly interface for researchers and reviewers to interact with the journal and track the progress of the peer review process.
+The "Decentralised Storage" is an optional component that can be used to store and distribute the papers in a decentralised and secure manner. The "Interface" is another optional component that provides a user-friendly interface for researchers and reviewers to interact with the journal and track the progress of the peer review process.
 
 The main use cases in the diagram are "Submit Paper", "Review Paper", and "Publish Paper". These represent the primary actions that researchers and reviewers can perform in the journal, and they are supported by the "Smart Contract" and other components of the system.
 
@@ -351,7 +352,7 @@ Utilising continuous integration and development practices for the scientific jo
 ## Technologies
 
 ### Ethers.js
-Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and decentralized applications (dApps). It is designed to be easy to use and provides a range of tools and features for developers, including support for signing and sending transactions, querying the blockchain, and interacting with smart contracts.
+Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and decentralised applications (dApps). It is designed to be easy to use and provides a range of tools and features for developers, including support for signing and sending transactions, querying the blockchain, and interacting with smart contracts.
 
 Ethers.js is developed and maintained by Ethers.io, a company that provides tools and services for the Ethereum ecosystem. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
 
@@ -362,7 +363,7 @@ Ethers.js is designed to be lightweight and modular, allowing developers to incl
 Ethers.js is a powerful and well-designed library for interacting with the Ethereum blockchain and dApps, and it is a popular choice among Ethereum developers.
 
 ### Metamask
-Metamask is a browser extension that allows users to interact with the Ethereum blockchain and decentralized applications (dApps). It is available for popular web browsers, including Google Chrome, Mozilla Firefox, and Microsoft Edge.
+Metamask is a browser extension that allows users to interact with the Ethereum blockchain and decentralised applications (dApps). It is available for popular web browsers, including Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
 Metamask provides a user-friendly interface for managing and using Ethereum accounts, signing and sending transactions, and interacting with dApps. It also includes a built-in wallet for storing and managing Ether and other Ethereum-based tokens.
 
@@ -391,10 +392,10 @@ Test and debug the contract by using the Hardhat environment and other tools, su
 
 ### Solidity
 
-Defining the intial structs for the Scientific Journal Contract and defining which compiler to use. 
+Defining the intial structs for the Scientific Journal Contract and defining which compiler to use.
 
 ```solidity
-pragma solidity ^0.8.3;
+pragma solidity >=0.7.0 <0.9.0;
 
 import "https://github.com/ipfs/js-ipfs/blob/master/src/index.js";
 
@@ -554,18 +555,18 @@ Here are a few examples of how you could implement an ipfs.add function in your 
 
 - Fabbri, A., Holland, T.J. and Bero, L.A. (2018) Food Industry sponsorship of academic research: Investigating commercial bias in the Research Agenda: Public Health Nutrition, Cambridge Core. Cambridge University Press. Available at: https://www.cambridge.org/core/journals/public-health-nutrition/article/food-industry-sponsorship-of-academic-research-investigating-commercial-bias-in-the-research-agenda/A4D9C0DC429218D5EFDFBE80FAE5E087 (Accessed: November 29, 2022).
 
-- Woolf, M. (n.d.). A brief history of peer-to-peer networks. Retrieved from https://www.makeuseof.com/tag/brief-history-peer-peer-networks/
+- Woolf, M. (n.d.). A brief history of peer-to-peer networks. Retrieved from https://www.makeuseof.com/tag/brief-history-peer-peer-networks/ (Accessed: December 9, 2022)
 
-- Knittel, B. (n.d.). The history of peer-to-peer networks. Retrieved from https://www.techopedia.com/the-history-of-peer-to-peer-networks/
+- Knittel, B. (n.d.). The history of peer-to-peer networks. Retrieved from https://www.techopedia.com/the-history-of-peer-to-peer-networks/ (Accessed: December 9, 2022)
 
-- White, E. (2018, March 15). The evolution of peer-to-peer networking. Retrieved from https://www.forbes.com/sites/elizabethwhite/2018/03/15/the-evolution-of-peer-to-peer-networking/?sh=1c7d0e5b2f40
+- White, E. (2018, March 15). The evolution of peer-to-peer networking. Retrieved from https://www.forbes.com/sites/elizabethwhite/2018/03/15/the-evolution-of-peer-to-peer-networking/?sh=1c7d0e5b2f40 (Accessed: December 9, 2022)
 
-- Protocol Labs. (2015). Interplanetary File System (IPFS). Retrieved from https://ipfs.io/
+- Protocol Labs. (2015). Interplanetary File System (IPFS). Retrieved from https://ipfs.io/ (Accessed: December 11, 2022)
 
-- Protocol Labs. (2015). Interplanetary File System (IPFS). Retrieved from https://ipfs.io/ (section on content identifiers
+- Protocol Labs. (2015). Interplanetary File System (IPFS). Retrieved from https://ipfs.io/ (section on content identifiers)(Accessed: December 11, 2022)
 
-- Protocol Labs. (n.d.). go-ipfs. Retrieved from https://github.com/ipfs/go-ipfs
+- Protocol Labs. (n.d.). go-ipfs. Retrieved from https://github.com/ipfs/go-ipfs (Accessed: December 11, 2022)
 
-- 3box. (n.d.). OrbitDB. Retrieved from https://github.com/orbitdb/orbit-db
+- 3box. (n.d.). OrbitDB. Retrieved from https://github.com/orbitdb/orbit-db (Accessed: December 11, 2022)
 
-- Ethers.io. (n.d.). Ethers.js. Retrieved from https://github.com/ethers-io/ethers.js
+- Ethers.io. (n.d.). Ethers.js. Retrieved from https://github.com/ethers-io/ethers.js (Accessed: December 12, 2022)
