@@ -295,6 +295,25 @@ Creating a scientific journal on the Ethereum blockchain using smart contracts i
 ## Development cycle?
 
 ### Use Case Diagram
+[Insert Diagram Here]
+
+In this diagram, the main actors are the Researchers, who submit their papers to the journal, and the Reviewers, who evaluate the papers and provide feedback. The Ethereum blockchain and the smart contract are the main system components, and they are used to manage and enforce the submission and review process.
+
+The main use cases in this diagram are:
+
+- Submit paper: The researcher submits a paper to the journal, and the contract validates the submission and stores the paper in a decentralized storage solution.
+
+- Review paper: The reviewer evaluates the paper and provides feedback and ratings, and the contract records the review and updates the status of the paper.
+
+- Publish paper: After the review process is complete, the contract determines if the paper meets the requirements for publication and adds it to the journal.
+
+The "Decentralized Storage" is an optional component that can be used to store and distribute the papers in a decentralized and secure manner. The "Interface" is another optional component that provides a user-friendly interface for researchers and reviewers to interact with the journal and track the progress of the peer review process.
+
+The main use cases in the diagram are "Submit Paper", "Review Paper", and "Publish Paper". These represent the primary actions that researchers and reviewers can perform in the journal, and they are supported by the "Smart Contract" and other components of the system.
+
+The use case diagram provides a high-level overview of the functionality and interactions in a scientific journal on the Ethereum blockchain using smart contracts in peer review. It can help developers and stakeholders understand the requirements and design of the system, and guide the development and implementation of the journal.
+
+This use case diagram illustrates the main actors, components, and use cases involved in creating a scientific journal on the Ethereum blockchain using smart contracts in peer review.
 
 ### An Agile Approach with Kanban
 Using Trello, Sprints
