@@ -199,7 +199,6 @@ Since its launch, IPFS has gained a significant amount of interest and adoption 
 Overall, the development of IPFS has been an important advancement in decentralized, peer-to-peer technology, and it continues to be an active area of research and development.
 
 ### Content Identifier and Distributed Hash Tables
-s
 Content identifiers, or CIDs, are unique identifiers used by the Interplanetary File System (IPFS) to identify and locate data in a decentralized network. They are based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash."
 
 CIDs are a key component of IPFS, as they allow users to access and share data without the need for a central authority or server. They are also used to ensure that data is stored and accessed in a consistent and reliable manner across the network.
@@ -316,21 +315,38 @@ The use case diagram provides a high-level overview of the functionality and int
 This use case diagram illustrates the main actors, components, and use cases involved in creating a scientific journal on the Ethereum blockchain using smart contracts in peer review.
 
 ### An Agile Approach with Kanban
-Using Trello, Sprints
+An agile approach with kanban can be considered for a scientific journal on the Ethereum blockchain using smart contracts in peer review, as it can help to improve the project's flexibility, transparency, and collaboration.
+
+To use an agile approach with kanban for the journal project, the following steps could be followed:
+
+- Define the project's goals and objectives, and identify the key features and requirements for the journal's contracts and user interface. This will provide a clear vision and direction for the project, and help to prioritize and plan the work.
+
+- Create a kanban board to visualize and manage the project's workflow and tasks. The board can be divided into columns, such as "To Do", "In Progress", and "Done", to represent the different stages of the development process.
+
+- Use agile principles and practices, such as iterative development, frequent feedback, and collaboration, to guide the project's development and deployment. This will allow the team to be flexible and adapt to changing requirements and priorities, and to deliver value to users quickly and iteratively.
+
+- Use kanban tools and techniques, such as limit WIP (work in progress) and pull-based scheduling, to optimize the project's workflow and reduce waste and delays. This will help to keep the project on track and deliver high-quality results in a timely manner.
+
+- Monitor and improve the project's progress and performance using agile metrics and techniques, such as velocity and burn-down charts. This will provide valuable insights into the project's progress and identify areas for improvement.
+
+Using an agile approach with kanban for the scientific journal project can help to improve the project's flexibility, transparency, and collaboration, and provide a more effective and efficient platform for publishing and reviewing scientific papers.
 
 ### Test-Driven-Development
 
 ### Continuous Integration/Development
-Build – We will compile the code in this stage.
+Continuous integration (CI) and continuous development (CD) are software development practices that involve regularly integrating and testing code changes, and continuously deploying and delivering software updates to users. These practices can be useful for a scientific journal on the Ethereum blockchain using smart contracts in peer review, as they can help to improve the quality, reliability, and speed of the journal's development and deployment.
 
-Test – We will test the code in this stage. We can save both efforts as well as
-time can be saved by performing the techniques of automation.
+To use continuous integration and development for the journal project, the following steps could be followed:
 
-Release – In this stage, we will release the application in our GitHub repository.
+- Set up a version control system, such as Git, to manage the source code for the journal and its contracts. This will allow developers to collaborate on the code, track changes, and revert to previous versions if needed.
 
-Deployment – We will deploy the application to the production environment.
+- Configure a continuous integration server, such as Jenkins or CircleCI, to automatically build and test the journal's contracts whenever changes are pushed to the version control system. This will ensure that the contracts are always up-to-date and free of bugs and issues.
 
-Validation and compliance – Your organization’s needs determine the steps to validate a build.
+- Set up a continuous deployment pipeline, using tools such as the Hardhat CLI or Truffle, to automatically deploy and update the journal's contracts on the Ethereum network whenever changes are made and tested. This will ensure that the contracts are always available and accessible to researchers and reviewers.
+
+- Monitor and optimize the continuous integration and deployment process using tools such as Grafana or New Relic. This will allow developers to track the performance and reliability of the journal's contracts and make improvements as needed.
+
+Utilising continuous integration and development practices for the scientific journal project can help to improve the quality and speed of the journal's development and deployment, and provide a more reliable and user-friendly platform for researchers and reviewers.
 
 ## Technologies
 
@@ -356,52 +372,146 @@ Metamask also allows users to connect to multiple Ethereum networks, including t
 
 Metamask is a convenient and user-friendly tool for interacting with the Ethereum blockchain and dApps, and it is widely used by Ethereum users and developers.
 
+### Hardhat
+To use the Hardhat development environment in creating a scientific journal on the Ethereum blockchain using smart contracts in peer review, the following steps could be followed:
 
+Install the Hardhat development environment on your computer by following the instructions on the Hardhat website (https://hardhat.org/). This will include installing the Hardhat CLI and other dependencies, such as Node.js and the Solidity compiler.
+
+Create a new project directory for the journal and initialize the Hardhat environment by running the "hardhat init" command in the terminal. This will create a default configuration file and directory structure for the project.
+
+Create a new Solidity contract for the journal by using a text editor or Solidity IDE to write the source code. The contract should define the rules and requirements for submitting and reviewing papers, and implement the peer review process using smart contract functions and data structures.
+
+Compile the contract using the Solidity compiler, which is included in the Hardhat environment. This will produce the bytecode and ABI (Application Binary Interface) for the contract, which are needed for deploying and interacting with the contract on the Ethereum blockchain.
+
+Deploy the contract to an Ethereum network, such as the Rinkeby testnet, by using the Hardhat CLI or other tools, such as the Truffle framework. This will deploy the contract to the network and make it available for interaction by other contracts and users.
+
+Test and debug the contract by using the Hardhat environment and other tools, such as the Remix IDE and Truffle console. This will allow you to verify that the contract functions as expected and fix any issues or bugs that may arise.
 
 ## Writing the contract
 
 ### Solidity
 
-This example code is for the wrong compiler and needs further work.
+Defining the intial structs for the Scientific Journal Contract and defining which compiler to use. 
 
 ```solidity
-pragma solidity ^0.5.1;
+pragma solidity ^0.8.3;
 
-contract PublishToIPFS {
-    // The IPFS hash of the file
-    string public ipfsHash;
+import "https://github.com/ipfs/js-ipfs/blob/master/src/index.js";
 
-    // Event for logging IPFS hashes
-    event IPFSHashLogged(string ipfsHash);
-
-    // Function to publish a file to IPFS and store the hash
-    function publish(string memory file) public {
-            // Calculate the IPFS hash of the file
-            ipfsHash = calculateIPFSHash(file);
-
-            // Emit an event to log the IPFS hash
-            emit IPFSHashLogged(ipfsHash);
+contract ScientificJournal {
+    // Define a struct for papers submitted to the journal
+    struct Paper {
+        string title;
+        string abstract;
+        string[] keywords;
+        bytes file;
+        address owner;
     }
 
-    // Function to calculate the IPFS hash of a file
-    function calculateIPFSHash(string memory file) private view returns (string memory) {
-            // TODO: Implement the IPFS hashing algorithm here
-            return "QmHash123";
+    // Define a mapping to store papers submitted to the journal
+    mapping(string => Paper) public papers;
+
+    // Define a struct for reviewers of the journal
+    struct Reviewer {
+        string name;
+        bool isActive;
     }
+
+    // Define a mapping to store reviewers of the journal
+    mapping(address => Reviewer) public reviewers;
+
+    // Define a struct for reviews of papers in the journal
+    struct Review {
+        uint rating;
+        string feedback;
+    }
+
+    // Define an array to store reviews of papers in the journal
+    Review[] public reviews;
+
+```
+
+```solidity
+// Define a storage struct for a journal entry on the Ethereum blockchain
+struct JournalEntry {
+    string ipfsHash;
+    address owner;
+}
+
+// Define a mapping from entryId to journal entry
+mapping (uint256 => JournalEntry) public journalEntries;
+
+```
+The JournalEntry storage struct contains two fields:
+
+- ipfsHash: the IPFS hash for the journal entry
+- owner: the Ethereum address of the journal entry's owner
+
+The journalEntries mapping uses the entryId (generated using the IPFS hash) as the key, and maps to a JournalEntry storage struct. This allows you to store and retrieve journal entries on the Ethereum blockchain using the entryId as a unique identifier.
+
+Here is an example of how you could define the encodeJournalEntry and addToIPFS functions:
+
+```solidity
+function encodeJournalEntry(string memory title) private pure returns (bytes memory) {
+    // Encode the journal entry's title as a byte array
+    return abi.encode(title);
+}
+
+function addToIPFS(bytes memory journalBytes) private view returns (string memory) {
+    // Add the journalBytes to IPFS and return the IPFS hash for the entry
+    return ipfs.add(journalBytes);
 }
 
 ```
-This smart contract has a public string variable called "ipfsHash" that stores the IPFS hash of the file. It also has an event called "IPFSHashLogged" for logging the IPFS hash, and a function called "publish" for publishing a file to IPFS and storing the hash.
+The encodeJournalEntry function takes the journal entry's title and encodes it as a byte array using the Solidity abi library's encode function.
 
-To use this contract, a user would call the "publish" function with the file as an input. The function would then calculate the IPFS hash of the file using the "calculateIPF
+The addToIPFS function takes the encoded journal entry as input, and uses the ipfs.add function to store the journal entry on IPFS. This function returns the IPFS hash for the entry.
+
+```solidity
+
+function publishJournal(string memory title, address owner) public {
+    // Emit an event to indicate that a paper has been published in the journal
+    emit PaperPublished(title, owner);
+
+    // Store the journal entry on IPFS
+    // First, encode the journal entry as a byte array
+    bytes memory journalBytes = encodeJournalEntry(title);
+
+    // Then, add the journal entry to IPFS and get the IPFS hash for the entry
+    string ipfsHash = addToIPFS(journalBytes);
+
+    // Use the IPFS hash as the unique identifier for the journal entry on the Ethereum blockchain
+    uint256 entryId = keccak256(abi.encodePacked(ipfsHash));
+
+    // Store the journal entry on the Ethereum blockchain using the entryId as the key
+    JournalEntry storage journalEntry = journalEntries[entryId];
+    journalEntry.ipfsHash = ipfsHash;
+    journalEntry.owner = owner;
+}
+
+```
+
+In this example, the encodeJournalEntry function takes the journal entry's title and encodes it as a byte array. The addToIPFS function takes the encoded journal entry and stores it on IPFS, returning the IPFS hash for the entry.
+
+The IPFS hash is then used as the unique identifier for the journal entry on the Ethereum blockchain. The keccak256 function is used to generate a unique entryId for the journal entry using the IPFS hash.
+
+Finally, the journal entry is stored on the Ethereum blockchain using the entryId as the key, and the ipfsHash and owner are stored as part of the JournalEntry storage struct.
+
+To implement an ipfs.add function in your smart contract, you will need to use a library or contract that provides access to the IPFS API. There are several options available for doing this, and the specific implementation will depend on your specific requirements and preferences.
+
+Here are a few examples of how you could implement an ipfs.add function in your contract:
+
+- If you are using the Ethereum Virtual Machine (EVM) to run your contract, you can use the ethereum-ipfs package to interact with IPFS from your contract. This package provides an IPFS contract that you can deploy to the Ethereum blockchain, and which provides an add function that you can call from your contract to add entries to IPFS.
+
+- If you are using the web3.js library to interact with the Ethereum blockchain, you can use the ipfs-api package to interact with IPFS from your contract. This package provides an IPFS object that you can use to call the IPFS API, including the add function to add entries to IPFS.
+
+- If you are using the Ethereum Name Service (ENS) to resolve IPFS hashes to human-readable names, you can use the ens-js library to resolve IPFS hashes to ENS names and then use the ipfs.add function provided by the ens-js library to add entries to IPFS.
 
 # Results
 
 # Discussion
 
 # Conclusion
-
-# References
 
 # Bibliography
 
