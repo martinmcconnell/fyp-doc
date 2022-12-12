@@ -262,20 +262,36 @@ The mathematical calculation behind the selection of nodes in a PoS-based blockc
 
 The mathematics behind consensus algorithms is a crucial part of the blockchain, as it allows nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
 
-### Ethereum
-
-### Ethers.js
-
-### Metamask
-
 ## Smart Contracts and Solidity
 
+Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. They are a key component of the Ethereum blockchain and are used to facilitate, verify, and enforce the negotiation or performance of a contract.
 
+Smart contracts are typically implemented using a high-level programming language called Solidity, which is designed specifically for writing smart contracts on the Ethereum platform. Solidity is a statically-typed, object-oriented language that is influenced by JavaScript and C++.
 
+To write a smart contract in Solidity, the source code of the contract is compiled into bytecode, which is the binary representation of the contract that can be executed on the Ethereum Virtual Machine (EVM).
 
+Once a smart contract is deployed on the Ethereum blockchain, it is stored and executed by nodes in the network. The contract can be called and interacted with by other contracts or by users, and its state and data can be queried and updated.
+
+Solidity has a number of important features and characteristics that make it well-suited for writing smart contracts. It has support for various data types, including integers, booleans, and arrays, and it also has support for inheritance and contract abstractions.
+
+Smart contracts and Solidity are powerful tools for implementing and executing self-executing contracts on the Ethereum blockchain. They enable the creation of complex and decentralized applications that can automate a wide range of business processes and interactions.
 
 # Methodology
+It is possible to create a scientific journal publication on the Ethereum blockchain using smart contracts in peer review. This would involve implementing a smart contract that allows researchers to submit their papers to the journal, and a peer review process that is managed and enforced by the contract.
 
+To create a scientific journal on the Ethereum blockchain, the following steps could be followed:
+
+- Develop a smart contract that defines the rules and requirements for submitting papers to the journal, such as the format and content of the papers, and the fees for submission and publication.
+
+- Implement a peer review process in the contract, which allows reviewers to evaluate the papers and provide feedback and ratings. This could be done using a voting system, where reviewers cast their votes on the quality and relevance of the papers.
+
+- Integrate the contract with a decentralized storage solution, such as IPFS (Interplanetary File System), to store and distribute the papers in a decentralized and secure manner.
+
+- Provide a user-friendly interface, such as a web application or mobile app, that allows researchers to submit their papers to the journal and track the progress of the peer review process.
+
+- Promote the journal and its benefits to the scientific community, and encourage researchers to submit their papers and participate in the peer review process.
+
+Creating a scientific journal on the Ethereum blockchain using smart contracts in peer review would provide a decentralized, secure, and transparent platform for publishing and reviewing scientific papers. It could help to improve the efficiency and quality of the peer review process, and provide new opportunities for collaboration and dissemination of scientific knowledge.
 ## Development cycle?
 
 ### Use Case Diagram
@@ -284,6 +300,7 @@ The mathematics behind consensus algorithms is a crucial part of the blockchain,
 Using Trello, Sprints
 
 ### Test-Driven-Development
+
 ### Continuous Integration/Development
 Build – We will compile the code in this stage.
 
@@ -295,6 +312,69 @@ Release – In this stage, we will release the application in our GitHub reposit
 Deployment – We will deploy the application to the production environment.
 
 Validation and compliance – Your organization’s needs determine the steps to validate a build.
+
+## Technologies
+
+### Ethers.js
+Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and decentralized applications (dApps). It is designed to be easy to use and provides a range of tools and features for developers, including support for signing and sending transactions, querying the blockchain, and interacting with smart contracts.
+
+Ethers.js is developed and maintained by Ethers.io, a company that provides tools and services for the Ethereum ecosystem. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
+
+To use Ethers.js, developers typically include the library in their project and use its APIs to interact with the Ethereum blockchain and dApps. For example, they can use the library to create and sign transactions, query the blockchain for information, or interact with smart contracts.
+
+Ethers.js is designed to be lightweight and modular, allowing developers to include only the features and functionality they need in their projects. It also has support for multiple Ethereum networks, including the mainnet, testnets, and private networks, making it versatile and easy to use in a variety of contexts.
+
+Ethers.js is a powerful and well-designed library for interacting with the Ethereum blockchain and dApps, and it is a popular choice among Ethereum developers.
+
+### Metamask
+Metamask is a browser extension that allows users to interact with the Ethereum blockchain and decentralized applications (dApps). It is available for popular web browsers, including Google Chrome, Mozilla Firefox, and Microsoft Edge.
+
+Metamask provides a user-friendly interface for managing and using Ethereum accounts, signing and sending transactions, and interacting with dApps. It also includes a built-in wallet for storing and managing Ether and other Ethereum-based tokens.
+
+To use Metamask, users first need to install the extension in their web browser and create a new account. They can then use the extension to manage their accounts, sign transactions, and interact with dApps.
+
+Metamask also allows users to connect to multiple Ethereum networks, including the mainnet, testnets, and private networks. This allows them to easily switch between networks and test their dApps in different environments.
+
+Metamask is a convenient and user-friendly tool for interacting with the Ethereum blockchain and dApps, and it is widely used by Ethereum users and developers.
+
+
+
+## Writing the contract
+
+### Solidity
+
+This example code is for the wrong compiler and needs further work.
+
+```solidity
+pragma solidity ^0.5.1;
+
+contract PublishToIPFS {
+    // The IPFS hash of the file
+    string public ipfsHash;
+
+    // Event for logging IPFS hashes
+    event IPFSHashLogged(string ipfsHash);
+
+    // Function to publish a file to IPFS and store the hash
+    function publish(string memory file) public {
+            // Calculate the IPFS hash of the file
+            ipfsHash = calculateIPFSHash(file);
+
+            // Emit an event to log the IPFS hash
+            emit IPFSHashLogged(ipfsHash);
+    }
+
+    // Function to calculate the IPFS hash of a file
+    function calculateIPFSHash(string memory file) private view returns (string memory) {
+            // TODO: Implement the IPFS hashing algorithm here
+            return "QmHash123";
+    }
+}
+
+```
+This smart contract has a public string variable called "ipfsHash" that stores the IPFS hash of the file. It also has an event called "IPFSHashLogged" for logging the IPFS hash, and a function called "publish" for publishing a file to IPFS and storing the hash.
+
+To use this contract, a user would call the "publish" function with the file as an input. The function would then calculate the IPFS hash of the file using the "calculateIPF
 
 # Results
 
@@ -358,3 +438,5 @@ Validation and compliance – Your organization’s needs determine the steps to
 - Protocol Labs. (n.d.). go-ipfs. Retrieved from https://github.com/ipfs/go-ipfs
 
 - 3box. (n.d.). OrbitDB. Retrieved from https://github.com/orbitdb/orbit-db
+
+- Ethers.io. (n.d.). Ethers.js. Retrieved from https://github.com/ethers-io/ethers.js
