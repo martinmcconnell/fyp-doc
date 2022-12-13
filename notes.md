@@ -52,7 +52,7 @@ as for digital distribution printing has become unnecessary. Copying is now simp
 distribution is instantaneous online. **(Taylor, 2012)**
 
 According to **(Chow & Birdwell, 2022)** There is an increased distrust in scientific research in many
-fields of study and the main purpose of this system is to remove the corporate and empirical structure of the
+fields of study. The main purpose of this system is to remove the corporate and empirical structure of the
 current journal publication where in many cases corporations have been found to create and promote
 articles with bias towards certain priorities that suit the business opportunities of the corporation
 and not the actual scientific consensus.
@@ -87,8 +87,7 @@ themselves will own the rights to their own work by staking them on the blockcha
 Academics will be able to earn passive income off the favourable and positive contributions to the emerging
 consensus.
 
-At the moment the peer-review process is centralised in the hands of the publishers. Should this process
-be decentralised...........it'll be interesting to see what happens.
+Currently, the peer-review process is controlled by publishers. If this process were to be decentralized, it would be fascinating to see the outcome.
 
 ## The peer-reviewing process
 Peer review generally works like this;
@@ -144,15 +143,22 @@ the journals that those references are published in.
 ## Goals and Requirements
 
 ### Goals
-The goal of this project is to contribute to Academic Journal Publishing Reform
-taking advantage of the internet in the distribution of Academic Journals and
-decentralised applications to support the reviewing process and in the increase
-in trust via the "Smart Contract" mechanism in the Ethereum Virtual Machine
-running on the Ethereum Blockchain.
-
-
+The aim of this project is to improve the process of publishing academic journals by utilizing the internet for distribution and implementing decentralized applications to support the review process. Additionally, aiming to increase trust in the system through the use of "smart contracts" on the Ethereum blockchain.
 
 ### Requirements
+Some potential requirements for a decentralized application (dApp) for a scientific journal project are outlined below:
+
+- The dApp should allow researchers to submit papers to the journal. This should include a mechanism for uploading the paper, along with information such as the title, author, and keywords.
+
+- The dApp should allow reviewers to review submitted papers. This should include a mechanism for reviewing the paper, such as a rating system and a field for feedback.
+
+- The dApp should allow the journal editor to review and approve papers for publication. This should include a mechanism for the editor to view submitted papers and reviews, and to decide which papers should be published in the journal.
+
+- The dApp should allow users to view published papers in the journal. This should include a mechanism for browsing and searching published papers, as well as a way to view the full text of each paper.
+
+- The dApp should use the Ethereum blockchain to store information about submitted papers, reviewers, and published papers. This should include using smart contracts to manage the submission, review, and publication process, as well as using decentralized storage solutions like IPFS to store the actual papers.
+
+These are just some potential requirements for a dApp for a scientific journal project. Depending on the specific goals and requirements of the project as it evolves, there may be other requirements that are important to consider.
 
 # Exploratory Analysis
 
@@ -217,6 +223,14 @@ go-ipfs is a command-line tool, which means that it is typically used in a termi
 Overall, go-ipfs is an important component of the IPFS ecosystem, providing a high-quality and well-supported implementation of the protocol in the Go programming language. **(Protocol Labs, n.d.)**
 
 ## Databases
+
+In a project such as this, a decentralized database solution could be used to store information about submitted papers, reviewers, and published papers. Decentralized databases, also known as distributed ledgers, are databases that are spread across multiple nodes or computers, rather than being stored on a single central server. This makes them highly resilient and secure, as well as transparent and easily auditable.
+
+One potential decentralized database solution that could be used in a project like this is the Ethereum blockchain. The Ethereum blockchain is a decentralized platform that runs smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. This makes it a powerful tool for storing and managing information in a transparent, secure, and decentralized manner.
+
+Additionally, the Ethereum blockchain allows for the use of decentralized storage solutions like InterPlanetary File System (IPFS), which is a distributed file system that allows for the storage and retrieval of data in a decentralized manner. This could be useful for storing the actual papers that are submitted to the journal, as well as other related information.
+
+Furthermore, the Ethereum blockchain and decentralized storage solutions like IPFS are potential decentralized database solutions that could be used in a project like this. However, there are many other decentralized database solutions available, and the specific solution that is best for a given project will depend on the specific requirements and goals of the project.
 
 ### OrbitDB
 OrbitDB is a distributed, peer-to-peer database built on top of the Interplanetary File System (IPFS). It is designed to be scalable, efficient, and secure, and it uses a key-value data model to store and retrieve data in a decentralised network.
@@ -292,7 +306,7 @@ To create a scientific journal on the Ethereum blockchain, the following steps c
 
 Creating a scientific journal on the Ethereum blockchain using smart contracts in peer review would provide a decentralised, secure, and transparent platform for publishing and reviewing scientific papers. It could help to improve the efficiency and quality of the peer review process, and provide new opportunities for collaboration and dissemination of scientific knowledge.
 
-## Development cycle?
+## Development cycle
 
 ### Use Case Diagram
 [Insert Diagram Here]
@@ -334,7 +348,20 @@ Using an agile approach with kanban for the scientific journal project can help 
 
 ### Test-Driven-Development
 
+Test-driven development (TDD) is a software development approach in which tests are written for a piece of code before the code itself is written. This allows developers to verify that their code is working as intended and identify any issues or errors early on in the development process.
+
+If using a test-driven development approach for your project, there are a few key things to consider. These might include:
+
+- Identifying the key functionalities and requirements of the project, and writing tests for each of these functionalities to ensure that they are working as intended.
+
+- Writing the tests first, before writing the actual code. This will help you to focus on the desired behavior and functionality of the code, and ensure that the code is written in a way that satisfies the tests.
+
+- Running the tests frequently during the development process, to ensure that the code is working as intended and identify any issues or errors as early as possible.
+
+- Refactoring the code as needed, based on the results of the tests and any changes to the requirements or functionality of the project.
+
 ### Continuous Integration/Development
+
 Continuous integration (CI) and continuous development (CD) are software development practices that involve regularly integrating and testing code changes, and continuously deploying and delivering software updates to users. These practices can be useful for a scientific journal on the Ethereum blockchain using smart contracts in peer review, as they can help to improve the quality, reliability, and speed of the journal's development and deployment.
 
 To use continuous integration and development for the journal project, the following steps could be followed:
@@ -389,6 +416,18 @@ Deploy the contract to an Ethereum network, such as the Rinkeby testnet, by usin
 Test and debug the contract by using the Hardhat environment and other tools, such as the Remix IDE and Truffle console. This will allow you to verify that the contract functions as expected and fix any issues or bugs that may arise.
 
 ## Writing the contract
+
+In general, it's always a good idea to carefully review and test code before deploying a smart contract to the blockchain. This can help ensure that your contract is working as intended and does not contain any errors or vulnerabilities. There are a number of tools and resources available that can help with this process, such as online compilers, linters, and debugging tools.
+
+It's also a good idea to make use of best practices when writing and deploying smart contracts. This can help reduce the risk of errors and vulnerabilities, and improve the overall security and reliability of the contract. Some best practices to consider include:
+
+- Properly handling errors and exceptions in your code to prevent unexpected behavior
+
+- Implementing access controls to limit who can interact with your contract and what they can do
+
+- Using safe math functions to prevent overflow or underflow errors
+
+- Thoroughly testing your contract with a variety of different inputs and scenarios
 
 ### Solidity
 
@@ -498,21 +537,52 @@ The IPFS hash is then used as the unique identifier for the journal entry on the
 
 Finally, the journal entry is stored on the Ethereum blockchain using the entryId as the key, and the ipfsHash and owner are stored as part of the JournalEntry storage struct.
 
-To implement an ipfs.add function in your smart contract, you will need to use a library or contract that provides access to the IPFS API. There are several options available for doing this, and the specific implementation will depend on your specific requirements and preferences.
+To implement an ipfs.add function in the smart contract, a library or contract will need to be used that provides access to the IPFS API. There are several options available for doing this, and the specific implementation will depend on the specific requirements and preferences.
 
-Here are a few examples of how you could implement an ipfs.add function in your contract:
+Here are a few examples of how one could implement an ipfs.add function in the contract:
 
-- If you are using the Ethereum Virtual Machine (EVM) to run your contract, you can use the ethereum-ipfs package to interact with IPFS from your contract. This package provides an IPFS contract that you can deploy to the Ethereum blockchain, and which provides an add function that you can call from your contract to add entries to IPFS.
+- If using the Ethereum Virtual Machine (EVM) to run the contract, one can use the ethereum-ipfs package to interact with IPFS from the contract. This package provides an IPFS contract that can be deployed to the Ethereum blockchain, and which provides an add function that can be called from the contract to add entries to IPFS.
 
-- If you are using the web3.js library to interact with the Ethereum blockchain, you can use the ipfs-api package to interact with IPFS from your contract. This package provides an IPFS object that you can use to call the IPFS API, including the add function to add entries to IPFS.
+- If using the web3.js library to interact with the Ethereum blockchain, you can use the ipfs-api package to interact with IPFS from your contract. This package provides an IPFS object that you can use to call the IPFS API, including the add function to add entries to IPFS.
 
-- If you are using the Ethereum Name Service (ENS) to resolve IPFS hashes to human-readable names, you can use the ens-js library to resolve IPFS hashes to ENS names and then use the ipfs.add function provided by the ens-js library to add entries to IPFS.
+- If the Ethereum Name Service (ENS) is used to resolve IPFS hashes to human-readable names, you can use the ens-js library to resolve IPFS hashes to ENS names and then use the ipfs.add function provided by the ens-js library to add entries to IPFS.
 
 # Results
 
+
 # Discussion
 
+Overall, the code looks well-structured and properly organized. There are a few potential areas for improvement, however. For example:
+
+- The contract includes a function called addToIPFS that adds journal entries to IPFS, but this function is not implemented. It just returns a placeholder string and does not actually add anything to IPFS.
+
+- The contract includes a struct called Reviewer that has a name property, but this property is never used. It might be more appropriate to use the address of the reviewer instead of their name.
+
+- The contract includes a function called publishJournal that is used to publish a paper in the journal, but it does not actually check whether the paper has been reviewed or accepted before publishing it. It might be a good idea to include some additional logic to ensure that only approved papers are published in the journal.
+
+These are just some potential areas for improvement, and there may be other issues or improvements that could be made to the contract.
+
+In terms of some additional requirements to the project from this point in it's progress a few key requirements that are commonly important for dApps in this domain that have not yet been considered. These might include:
+
+- Ensuring that the dApp is user-friendly and intuitive to use, so that researchers and reviewers can easily submit and review papers.
+
+- Ensuring that the dApp is secure and reliable, so that sensitive information about submitted papers and reviewers is protected and the submission, review, and publication process is trustworthy.
+
+- Ensuring that the dApp is scalable and able to handle a large number of submissions and reviews, as well as a growing user base.
+
+- Ensuring that the dApp integrates seamlessly with the Ethereum blockchain and decentralized storage solutions like IPFS, so that information is properly stored and accessed on the blockchain.
+
+- Ensuring that the dApp follows best practices for smart contract development, such as properly handling errors and exceptions, implementing access controls, and using safe math functions.
+
+These are just some potential requirements that may be important to consider when developing a dApp for a scientific journal project. Depending on the specific goals and needs of your project, there may be other requirements that are important to consider..
+
 # Conclusion
+
+The idea of using decentralized applications (dApps) and the Ethereum blockchain to improve the process of publishing academic journals is an interesting and potentially valuable idea. By using the internet for distribution and decentralized applications to support the review process, it may be possible to create a more efficient, transparent, and trustworthy system for publishing academic journals. Additionally, the use of smart contracts on the Ethereum blockchain can help to increase trust in the system and ensure that the process is secure and reliable.
+
+There are many potential directions that this project could take to move forward and build on these ideas. For example, the project could focus on developing and implementing a user-friendly dApp that makes it easy for researchers and reviewers to submit and review papers, as well as for journal editors to manage the publication process. The project could also focus on integrating the dApp with the Ethereum blockchain and decentralized storage solutions like IPFS, to ensure that information is properly stored and accessed on the blockchain. Additionally, the project could explore other potential applications of the Ethereum blockchain and smart contracts in the context of academic publishing, such as using tokens to incentivize good behavior or using decentralized governance mechanisms to manage the journal.
+
+These are just some potential directions that the project could take to move forward and build on the initial premise. Ultimately, the specific direction and focus of the project will depend on the goals and needs of the project team and stakeholders.
 
 # Bibliography
 
