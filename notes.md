@@ -87,9 +87,9 @@ themselves will own the rights to their own work by staking them on the blockcha
 Academics will be able to earn passive income off the favourable and positive contributions to the emerging
 consensus.
 
-Currently, the peer-review process is controlled by publishers. If this process were to be decentralized, it would be fascinating to see the outcome.
+Currently, the peer-review process is controlled by publishers. If this process were to be decentralised, it would be fascinating to see the outcome.
 
-## The peer-reviewing process
+## The peer-reviewing process1
 Peer review generally works like this;
 
 The researcher writes a paper and submits it to a journal.
@@ -143,10 +143,10 @@ the journals that those references are published in.
 ## Goals and Requirements
 
 ### Goals
-The aim of this project is to improve the process of publishing academic journals by utilizing the internet for distribution and implementing decentralized applications to support the review process. Additionally, aiming to increase trust in the system through the use of "smart contracts" on the Ethereum blockchain.
+The aim of this project is to improve the process of publishing academic journals by utilizing the internet for distribution and implementing decentralised applications to support the review process. Additionally, aiming to increase trust in the system through the use of "smart contracts" on the Ethereum blockchain.
 
 ### Requirements
-Some potential requirements for a decentralized application (dApp) for a scientific journal project are outlined below:
+Some potential requirements for a decentralised application (dApp) for a scientific journal project are outlined below:
 
 - The dApp should allow researchers to submit papers to the journal. This should include a mechanism for uploading the paper, along with information such as the title, author, and keywords.
 
@@ -156,7 +156,7 @@ Some potential requirements for a decentralized application (dApp) for a scienti
 
 - The dApp should allow users to view published papers in the journal. This should include a mechanism for browsing and searching published papers, as well as a way to view the full text of each paper.
 
-- The dApp should use the Ethereum blockchain to store information about submitted papers, reviewers, and published papers. This should include using smart contracts to manage the submission, review, and publication process, as well as using decentralized storage solutions like IPFS to store the actual papers.
+- The dApp should use the Ethereum blockchain to store information about submitted papers, reviewers, and published papers. This should include using smart contracts to manage the submission, review, and publication process, as well as using decentralised storage solutions like IPFS to store the actual papers.
 
 These are just some potential requirements for a dApp for a scientific journal project. Depending on the specific goals and requirements of the project as it evolves, there may be other requirements that are important to consider.
 
@@ -224,13 +224,13 @@ Overall, go-ipfs is an important component of the IPFS ecosystem, providing a hi
 
 ## Databases
 
-In a project such as this, a decentralized database solution could be used to store information about submitted papers, reviewers, and published papers. Decentralized databases, also known as distributed ledgers, are databases that are spread across multiple nodes or computers, rather than being stored on a single central server. This makes them highly resilient and secure, as well as transparent and easily auditable.
+In a project such as this, a decentralised database solution could be used to store information about submitted papers, reviewers, and published papers. Decentralised databases, also known as distributed ledgers, are databases that are spread across multiple nodes or computers, rather than being stored on a single central server. This makes them highly resilient and secure, as well as transparent and easily auditable.
 
-One potential decentralized database solution that could be used in a project like this is the Ethereum blockchain. The Ethereum blockchain is a decentralized platform that runs smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. This makes it a powerful tool for storing and managing information in a transparent, secure, and decentralized manner.
+One potential decentralised database solution that could be used in a project like this is the Ethereum blockchain. The Ethereum blockchain is a decentralised platform that runs smart contracts, which are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. This makes it a powerful tool for storing and managing information in a transparent, secure, and decentralised manner.
 
-Additionally, the Ethereum blockchain allows for the use of decentralized storage solutions like InterPlanetary File System (IPFS), which is a distributed file system that allows for the storage and retrieval of data in a decentralized manner. This could be useful for storing the actual papers that are submitted to the journal, as well as other related information.
+Additionally, the Ethereum blockchain allows for the use of decentralised storage solutions like InterPlanetary File System (IPFS), which is a distributed file system that allows for the storage and retrieval of data in a decentralised manner. This could be useful for storing the actual papers that are submitted to the journal, as well as other related information.
 
-Furthermore, the Ethereum blockchain and decentralized storage solutions like IPFS are potential decentralized database solutions that could be used in a project like this. However, there are many other decentralized database solutions available, and the specific solution that is best for a given project will depend on the specific requirements and goals of the project.
+Furthermore, the Ethereum blockchain and decentralised storage solutions like IPFS are potential decentralised database solutions that could be used in a project like this. However, there are many other decentralised database solutions available, and the specific solution that is best for a given project will depend on the specific requirements and goals of the project.
 
 ### OrbitDB
 OrbitDB is a distributed, peer-to-peer database built on top of the Interplanetary File System (IPFS). It is designed to be scalable, efficient, and secure, and it uses a key-value data model to store and retrieve data in a decentralised network.
@@ -570,7 +570,7 @@ In terms of some additional requirements to the project from this point in it's 
 
 - Ensuring that the dApp is scalable and able to handle a large number of submissions and reviews, as well as a growing user base.
 
-- Ensuring that the dApp integrates seamlessly with the Ethereum blockchain and decentralized storage solutions like IPFS, so that information is properly stored and accessed on the blockchain.
+- Ensuring that the dApp integrates seamlessly with the Ethereum blockchain and decentralised storage solutions like IPFS, so that information is properly stored and accessed on the blockchain.
 
 - Ensuring that the dApp follows best practices for smart contract development, such as properly handling errors and exceptions, implementing access controls, and using safe math functions.
 
@@ -578,9 +578,9 @@ These are just some potential requirements that may be important to consider whe
 
 # Conclusion
 
-The idea of using decentralized applications (dApps) and the Ethereum blockchain to improve the process of publishing academic journals is an interesting and potentially valuable idea. By using the internet for distribution and decentralized applications to support the review process, it may be possible to create a more efficient, transparent, and trustworthy system for publishing academic journals. Additionally, the use of smart contracts on the Ethereum blockchain can help to increase trust in the system and ensure that the process is secure and reliable.
+The idea of using decentralised applications (dApps) and the Ethereum blockchain to improve the process of publishing academic journals is an interesting and potentially valuable idea. By using the internet for distribution and decentralised applications to support the review process, it may be possible to create a more efficient, transparent, and trustworthy system for publishing academic journals. Additionally, the use of smart contracts on the Ethereum blockchain can help to increase trust in the system and ensure that the process is secure and reliable.
 
-There are many potential directions that this project could take to move forward and build on these ideas. For example, the project could focus on developing and implementing a user-friendly dApp that makes it easy for researchers and reviewers to submit and review papers, as well as for journal editors to manage the publication process. The project could also focus on integrating the dApp with the Ethereum blockchain and decentralized storage solutions like IPFS, to ensure that information is properly stored and accessed on the blockchain. Additionally, the project could explore other potential applications of the Ethereum blockchain and smart contracts in the context of academic publishing, such as using tokens to incentivize good behavior or using decentralized governance mechanisms to manage the journal.
+There are many potential directions that this project could take to move forward and build on these ideas. For example, the project could focus on developing and implementing a user-friendly dApp that makes it easy for researchers and reviewers to submit and review papers, as well as for journal editors to manage the publication process. The project could also focus on integrating the dApp with the Ethereum blockchain and decentralised storage solutions like IPFS, to ensure that information is properly stored and accessed on the blockchain. Additionally, the project could explore other potential applications of the Ethereum blockchain and smart contracts in the context of academic publishing, such as using tokens to incentivize good behavior or using decentralised governance mechanisms to manage the journal.
 
 These are just some potential directions that the project could take to move forward and build on the initial premise. Ultimately, the specific direction and focus of the project will depend on the goals and needs of the project team and stakeholders.
 
