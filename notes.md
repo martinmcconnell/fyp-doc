@@ -125,7 +125,8 @@ authors then pay a fee to publish the paper, typically marketed as a fee to
 publish open-source.
 
 In addition, many "open-source" journals (particularly in engineering fields)
-are patent and IP trolls; you publish your work open-source with them, pay a
+are patent and IP trolls (a pejorative term for an entity that enforces patent rights above and beyond the patent's actual value);
+you publish your work open-source with them, pay a
 lower fee than the pay-to-publish journals, but in the process you sign over
 all potential IP from the work, and the paper itself never really gets
 published in any major journals, but instead gets presented at a
