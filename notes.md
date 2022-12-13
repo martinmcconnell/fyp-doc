@@ -132,11 +132,8 @@ all potential IP from the work, and the paper itself never really gets
 published in any major journals, but instead gets presented at a
 conference that you have to pay an exorbitant fee to attend.
 
-Ultimately; it's all built on reputation. Check the journal's impact factor
-(which is a very rough way to judge the likelihood that a journal's paper
-will be cited) against other journals in that field (and don't compare across
-fields. Also check the publishers, as well as the location where the journal
-is published.
+Ultimately; it's all built on reputation. By checking the journal's impact factor against other journals in that field (while not comparing across
+fields). Also the location where the journal is published can be a deciding reputation factor. One can approximate the reliability of the source material.
 
 The other good rule of thumb is the reference list of any given paper, and
 the journals that those references are published in.
@@ -190,36 +187,36 @@ There have been many protocols proposed to achieve these fundamental goals.
 ## peer 2 peer, P2P
 The concept of peer-to-peer technology dates back to the early days of networking. It was initially developed as a way to allow computers to connect and share resources without the need for a central server or authority.
 
-In the early 1990s, the first peer-to-peer file sharing networks began to emerge, allowing users to share and download files directly from each other's computers. This proved to be a popular and efficient way to share files, but it also led to the widespread sharing of copyrighted material, which sparked controversy and legal battles.
+In the early 1990s, the first peer-to-peer file sharing networks began to emerge, allowing users to share and download files directly from each other's computers. This proved to be a popular and efficient way to share files, but it also led to the widespread sharing of copyrighted material, which sparked controversy and legal battles **(Woolf, n.d.)**.
 
-In recent years, peer-to-peer technology has continued to evolve and is now used in a variety of applications, including social networking, streaming video, and distributed computing. It is also a key component of blockchain technology, which allows decentralised networks to operate without a central authority.
+In recent years, peer-to-peer technology has continued to evolve and is now used in a variety of applications, including social networking, streaming video, and distributed computing. It is also a key component of blockchain technology, which allows decentralised networks to operate without a central authority **(White, 2018)**.
 
 Overall, peer-to-peer technology has a rich history and continues to play a significant role in the development of networking and computing technology.
 
 ## Interplanetary File System
 The Interplanetary File System, or IPFS, is a decentralised, peer-to-peer protocol for sharing and storing files. It was developed by Protocol Labs, a research, development, and deployment laboratory, in 2015.
 
-IPFS is based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash." This allows IPFS to distribute and replicate data across multiple nodes, making it more resilient and efficient than traditional centralized systems.
+IPFS is based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash." This allows IPFS to distribute and replicate data across multiple nodes, making it more resilient and efficient than traditional centralized systems **(Protocol Labs, 2015)**.
 
-Since its launch, IPFS has gained a significant amount of interest and adoption in the blockchain and decentralised web communities. It has also been used in a variety of applications, including file sharing, content distribution, and distributed computing.
+Since its launch, IPFS has gained a significant amount of interest and adoption in the blockchain and decentralised web communities. It has also been used in a variety of applications, including file sharing, content distribution, and distributed computing **(Protocol Labs, 2015)**.
 
 Overall, the development of IPFS has been an important advancement in decentralised, peer-to-peer technology, and it continues to be an active area of research and development.
 
 ### Content Identifier and Distributed Hash Tables
-Content identifiers, or CIDs, are unique identifiers used by the Interplanetary File System (IPFS) to identify and locate data in a decentralised network. They are based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash."
+Content identifiers, or CIDs, are unique identifiers used by the Interplanetary File System (IPFS) to identify and locate data in a decentralised network. They are based on the concept of distributed hash tables (DHTs), which allow nodes in a network to store and retrieve data based on a unique identifier known as a "hash." **(Protocol Labs, n.d.)**
 
-CIDs are a key component of IPFS, as they allow users to access and share data without the need for a central authority or server. They are also used to ensure that data is stored and accessed in a consistent and reliable manner across the network.
+CIDs are a key component of IPFS, as they allow users to access and share data without the need for a central authority or server. They are also used to ensure that data is stored and accessed in a consistent and reliable manner across the network **(Protocol Labs, n.d.)**.
 
-CIDs are typically represented as a string of characters that begin with "Qm" followed by a series of numbers and letters. They are generated using a cryptographic hash function, which ensures that they are unique and cannot be easily tampered with.
+CIDs are typically represented as a string of characters that begin with "Qm" followed by a series of numbers and letters. They are generated using a cryptographic hash function, which ensures that they are unique and cannot be easily tampered with **(Protocol Labs, n.d.)**.
 
 Overall, CIDs are an essential part of the IPFS protocol and enable its decentralised, peer-to-peer nature.
 
 ### Kubo (Golang on IPFS)
-go-ipfs, now called Kubo, is an implementation of the Interplanetary File System (IPFS) written in the Go programming language. It is a decentralised, peer-to-peer protocol for sharing and storing files, and it is designed to be scalable, efficient, and secure.
+go-ipfs, now called Kubo, is an implementation of the Interplanetary File System (IPFS) written in the Go programming language. It is a decentralised, peer-to-peer protocol for sharing and storing files, and it is designed to be scalable, efficient, and securei **(Protocol Labs, n.d.)**.
 
 go-ipfs is developed and maintained by Protocol Labs, the creators of IPFS. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
 
-go-ipfs is a command-line tool, which means that it is typically used in a terminal or command prompt. It provides a range of commands for managing and interacting with the IPFS network, including commands for adding and retrieving files, running a local node, and connecting to the network.
+go-ipfs is a command-line tool, which means that it is typically used in a terminal or command prompt. It provides a range of commands for managing and interacting with the IPFS network, including commands for adding and retrieving files, running a local node, and connecting to the network **(Protocol Labs, n.d.)**.
 
 Overall, go-ipfs is an important component of the IPFS ecosystem, providing a high-quality and well-supported implementation of the protocol in the Go programming language. **(Protocol Labs, n.d.)**
 
@@ -245,11 +242,12 @@ Overall, OrbitDB is a powerful and innovative database solution that is well-sui
 ## Blockchain
 Blockchain is a distributed, decentralised, digital ledger that is used to record and verify transactions in a secure and transparent manner that uses a chain of cryptographic hashes to store and verify transactions. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, and it has a number of important characteristics and features.. It is typically implemented as a chain of blocks, where each block contains a number of transactions and a cryptographic "hash" that links it to the previous block in the chain. Each of these transactions are verified and validated by a network of nodes, which use consensus algorithms to ensure that the data in the blockchain is accurate and consistent.
 
-The fundamental property of a blockchain is its immutability, which means that once a block has been added to the chain, it cannot be altered or removed. This is achieved through the use of cryptographic techniques, such as digital signatures and hash functions, which ensure the integrity and security of the data in the blockchain.
+The fundamental property of a blockchain is its immutability, which means that once a block has been added to the chain, it cannot be altered or removed. This is achieved through the use of cryptographic techniques, such as digital signatures and hash functions, which ensure the integrity and security of the data in the blockchain. **(Nakamoto, 2006)**
 
 Each block in a blockchain is linked to the previous block through the use of a cryptographic hash, which ensures the integrity and security of the data in the chain. This allows for a tamper-evident and immutable ledger, as any attempts to alter or manipulate the data in a block would be easily detected.
 
-Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralised model allows for greater transparency, security, and resilience, as it is not dependent on any single entity.
+Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralised model allows for greater transparency, security, and resilience, as it is not dependent on any single entity **(Nakamoto, 2006)**
+.
 
 Blockchain also uses public-key cryptography to secure transactions and protect user privacy. Each user in a blockchain network has a unique pair of keys, a public key and a private key, which are used to sign and verify transactions. This ensures that only the user with the corresponding private key can access and control their data in the blockchain.
 
@@ -266,7 +264,7 @@ Another example of a consensus algorithm is proof-of-stake (PoS), which is used 
 
 Overall, consensus algorithms are a crucial part of the blockchain, as they allow nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
 
-The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralised and trustless manner.
+The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralised and trustless manner **(Nakamoto, 2006)**.
 
 The mathematical puzzle that is solved by the nodes in a PoW-based blockchain is typically a computational problem that is difficult to solve but easy to verify. For example, the Bitcoin network uses a problem called the "double SHA-256" hash, which requires nodes to find a number that, when hashed twice with the SHA-256 algorithm, produces a result that is less than a certain target value.
 
@@ -282,7 +280,7 @@ Smart contracts are typically implemented using a high-level programming languag
 
 To write a smart contract in Solidity, the source code of the contract is compiled into bytecode, which is the binary representation of the contract that can be executed on the Ethereum Virtual Machine (EVM).
 
-Once a smart contract is deployed on the Ethereum blockchain, it is stored and executed by nodes in the network. The contract can be called and interacted with by other contracts or by users, and its state and data can be queried and updated.
+Once a smart contract is deployed on the Ethereum blockchain, it is stored and executed by nodes in the network. The contract can be called and interacted with by other contracts or by users, and its state and data can be queried and updated **(Buterin, 2014)**.
 
 Solidity has a number of important features and characteristics that make it well-suited for writing smart contracts. It has support for various data types, including integers, booleans, and arrays, and it also has support for inheritance and contract abstractions.
 
