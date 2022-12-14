@@ -1,5 +1,5 @@
 ---
-title: "Reaching Scientific Consensus, The Decentralised Opportunity for Trust and Access"
+title: "Democratising Knowledge, The Decentralised Opportunity for Trust and Access"
 titlepage: true
 titlepage-background: "background1.pdf"
 page-background: "background1.pdf"
