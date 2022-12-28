@@ -68,7 +68,7 @@ Reform. For better access, trust and incentive to contribute to the archive of j
 for everyone's benefit.
 
 Originally coined by Nick Szabo, "Smart Contracts" are electronic agreements that are immutable and transparent,
-and deployed on a decentralised blockchain. This means they cannot be altered, automatically executed and are deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute and everyone sees
+and deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute everyone can analyse them.
 the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
 contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
 by moving the actions of reviewers and researchers to a proof-of-work model on a blockchain. Benefits of
