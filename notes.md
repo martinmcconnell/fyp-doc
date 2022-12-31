@@ -79,54 +79,52 @@ consensus.
 
 Currently, the peer-review process is controlled by publishers. If this process were to be decentralised, it would be fascinating to see the outcome.
 
-## The peer-reviewing process1
-Peer review generally works like this;
+## The peer-reviewing process
+Academic journal publishing is the process by which academic journals publish research articles written by scholars, researchers, and experts in a particular field. The process typically involves the submission of an article by the author, review and evaluation of the article by expert reviewers, and publication of the article in the journal if it is accepted. There are many different factors to consider when publishing in an academic journal, including the journal's scope and focus, the quality and relevance of the research, and the formatting and presentation of the article.
 
-The researcher writes a paper and submits it to a journal.
+### Issues
 
-The editor who is put in charge of the paper selects a number of other
-researchers to offer the paper to. There is some say as to who the
-reviewers are (e.g. one can explicitly ask the editor not to have certain
-other authors review the work, and can also explicitly ask for certain
-reviewers), and in some cases the journal will explicitly ask for a list
-of potential reviewers, but final authority comes down to the editor.
+There are several potential problems that can arise in the process of publishing in an academic journal. Some of the most common issues include:
 
-The reviewers read and critique the paper, send their recommendations back to
-the editor, who then returns the information back to the authors along with their
-decision as to publication (typically, the editors request specific revisions
-prior to publication).
+Rejection: The most obvious problem is that an article may be rejected by the journal, either because it is not deemed to be of sufficient quality or because it is not a good fit for the journal's focus and scope. This can be a frustrating and disheartening experience for authors, but it is important to remember that rejection is a normal part of the academic publishing process and should not be viewed as a personal failure.
 
-The researcher makes revisions, and returns the paper to the editor, who then will make the
-final call as to publication (typically, this is dependent on the addressing
-all of the various concerns of the reviewers).
+Reviewer bias: Another potential problem is bias on the part of the reviewers. Reviewers are typically experts in the field who are asked to evaluate the quality and relevance of an article, but they may have their own biases or preconceived notions that could influence their evaluation. This can be particularly challenging for authors who are working on topics that are outside the mainstream or that challenge established views.
 
-This obviously has a lot of room for problems, and one has to trust the
-journals to do their due diligence and ensure the process works out
-correctly. In this manner the reputation of the journal is the key to judging the
-works published in said journal. Furthermore, many journals group themselves
-into one of the bigger publishing houses (like Elseveir, Springer,
-Taylor & Francis, etc.), and those publishers like to keep their journals
-reputable.
+Lengthy review process: The review process can also be slow and drawn out, which can be frustrating for authors who are eager to see their work published. It is not uncommon for the review process to take several months or even longer, depending on the journal and the number of reviewers involved.
 
-Granted, many journals have issues and often can be a pay-to-publish journal.
-These journals have what is typically branded as "expedited peer review,"
-which may just be the editor checking for grammatical mistakes. The
-authors then pay a fee to publish the paper, typically marketed as a fee to
-publish open-source.
+Limited access to published articles: Finally, one of the biggest problems with academic publishing is the limited access that many people have to published articles. Many journals charge high fees for access to their articles, which can be a barrier for researchers and students who are not affiliated with a university or other institution that has a subscription.
 
-In addition, many "open-source" journals (particularly in engineering fields)
-are patent and IP trolls (a pejorative term for an entity that enforces patent rights above and beyond the patent's actual value);
-you publish your work open-source with them, pay a
-lower fee than the pay-to-publish journals, but in the process you sign over
-all potential IP from the work, and the paper itself never really gets
-published in any major journals, but instead gets presented at a
-conference that you have to pay an exorbitant fee to attend.
+### Mitigating the Issues
 
-Ultimately; it's all built on reputation. By checking the journal's impact factor against other journals in that field (while not comparing across
-fields). Also the location where the journal is published can be a deciding reputation factor. One can approximate the reliability of the source material.
+Resolving the issue of Reveiwer Bias has been attempted to be addressed in different ways such as:
 
-The other good rule of thumb is the reference list of any given paper, and
-the journals that those references are published in.
+- Double-blind review: One common approach is to use a double-blind review process, in which the identity of the author is not disclosed to the reviewers and the identity of the reviewers is not disclosed to the author. This can help to reduce the influence of personal biases and conflicts of interest on the review process.
+
+- Diverse review panel: Another approach is to ensure that the review panel is diverse and includes reviewers from a variety of different backgrounds and perspectives. This can help to balance any biases that may be present in the review process.
+
+- Pre-publication peer review: Some journals are experimenting with pre-publication peer review, in which articles are reviewed and feedback is provided to the authors before the article is formally submitted for publication. This can help to identify and address any issues with the article before it goes through the full review process.
+
+- Open review: Finally, some journals are adopting open review processes, in which the review process is open and transparent. This allows authors to see the comments and feedback from the reviewers and to respond to any concerns or criticisms before the article is accepted for publication.
+
+As for the issues surrounding Limited access, one solution is to publish articles in open access journals, which make their articles freely available to anyone with an internet connection. There are many open access journals that cover a wide range of disciplines, and publishing in an open access journal can help to ensure that your research is more widely available and more easily discoverable.
+
+Many universities and other research institutions have their own institutional repositories, which are online platforms that allow researchers to deposit their published articles and make them available to anyone with access to the repository.
+
+Preprint servers: Preprint servers are online platforms that allow researchers to share their work before it is formally published in a journal. This can help to increase the visibility of the research and make it more widely available to the scientific community.
+
+Author self-archiving: Finally, authors can also self-archive their articles, which means making a copy of the published article available on their personal or institutional website or in a repository. This can help to increase the visibility and accessibility of the research.
+
+Each of these methods, while applicable and reasonable to bring attention to each problem don't fully realise the fundamental issue of the monolithic journal structure and how Blockchain technology, smart contracts, and decentralization could potentially be used to address some of the problems that exist in the academic publishing process.
+
+Peer review: Blockchain technology could be used to create a decentralised peer review system that is more transparent and less vulnerable to bias. Smart contracts could be used to automate the review process and ensure that reviewers are fairly compensated for their work.
+
+Article publishing: Smart contracts could be used to automate the article publishing process, enabling articles to be published and disseminated more quickly and efficiently. Blockchain technology could be used to create a secure, tamper-proof record of the published articles, helping to ensure the integrity and authenticity of the research.
+
+Access to published articles: Decentralisation could be used to create a more equitable and accessible system for accessing published articles. For example, a decentralised platform could be used to allow researchers and students to access articles in exchange for a small fee or using a cryptocurrency.
+
+Data sharing: Blockchain technology could be used to create a secure and transparent system for sharing research data, helping to ensure that data is properly cited and credit is given to the appropriate parties.
+
+Predatory journals: Decentralization and smart contracts could be used to create a more transparent and accountable system for identifying and combating predatory journals, which are journals that publish low-quality or fraudulent research in exchange for a fee.
 
 ## Goals and Requirements
 
