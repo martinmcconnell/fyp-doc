@@ -16,9 +16,15 @@ list-of-figures: true
 
 # Abstract
 
+This paper examines the problem of Academic Journal publishing reform and attempts to create a decentralised system based
+solution, where reviewers and researchers utilise smart contracts to submit, review and publish their work to a peer to peer database that would be freely accessible to all.
 
+Incorporating evidence from several sources to substantiate the claim of reviewer bias and inadequate research methods to justify the necessity of reform in the publlishing sector. This paper argues that Academic Journals are a public good and as such should be made accessible via the latest technologies in a cryptographically secure, decentralised and modern way that allows researchers and reviewers to secure their own funding and receive adequate lifelong revenue from their invaluable work.
 
 # Introduction
+
+## Problem and Justification
+
 "In economics, a public good is a good that is both non-excludable and
 non-rivalrous. For such goods, users cannot be barred from accessing or using
 them for failing to pay for them. Also, use by one person neither prevents
@@ -32,8 +38,6 @@ of pay-walls and membership only access.
 Non-rivalrous, is the accessibilty of a product or good that in the
 consumption does not affect the availability for subsequent use, In
 this manner a digital good can be classified as such.
-
-## Purpose, Intended Use and Audience
 
 Before the World Wide Web , distribution of academic articles to a global audience was extremely difficult. t
 required proof-reading, typesetting, printing and finally distribution. However since the ubiquity of the Internet
@@ -67,19 +71,8 @@ With all this in mind it is clear that there is a necessity for Academic Journal
 Reform. For better access, trust and incentive to contribute to the archive of journals
 for everyone's benefit.
 
-Originally coined by Nick Szabo, "Smart Contracts" are electronic agreements that are immutable and transparent,
-and deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute everyone can analyse them.
-the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
-contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
-by moving the actions of reviewers and researchers to a proof-of-work model on a blockchain. Benefits of
-this is there will be no need for a subscription/fee based model for accessing research as the researchers
-themselves will own the rights to their own work by staking them on the blockchain and also researchers and
-Academics will be able to earn passive income off the favourable and positive contributions to the emerging
-consensus.
-
-Currently, the peer-review process is controlled by publishers. If this process were to be decentralised, it would be fascinating to see the outcome.
-
 ## The peer-reviewing process
+
 Academic journal publishing is the process by which academic journals publish research articles written by scholars, researchers, and experts in a particular field. The process typically involves the submission of an article by the author, review and evaluation of the article by expert reviewers, and publication of the article in the journal if it is accepted. There are many different factors to consider when publishing in an academic journal, including the journal's scope and focus, the quality and relevance of the research, and the formatting and presentation of the article.
 
 ### Issues
@@ -114,17 +107,31 @@ Preprint servers: Preprint servers are online platforms that allow researchers t
 
 Author self-archiving: Finally, authors can also self-archive their articles, which means making a copy of the published article available on their personal or institutional website or in a repository. This can help to increase the visibility and accessibility of the research.
 
-Each of these methods, while applicable and reasonable to bring attention to each problem don't fully realise the fundamental issue of the monolithic journal structure and how Blockchain technology, smart contracts, and decentralization could potentially be used to address some of the problems that exist in the academic publishing process.
+### A Modern approach
 
-Peer review: Blockchain technology could be used to create a decentralised peer review system that is more transparent and less vulnerable to bias. Smart contracts could be used to automate the review process and ensure that reviewers are fairly compensated for their work.
+Each of these methods, while applicable and reasonable to bring attention to each problem don't fully realise the fundamental issue of the monolithic journal structure and how Blockchain technology, smart contracts, and decentralisation could potentially be used to address some of the problems that exist in the academic publishing process.
 
-Article publishing: Smart contracts could be used to automate the article publishing process, enabling articles to be published and disseminated more quickly and efficiently. Blockchain technology could be used to create a secure, tamper-proof record of the published articles, helping to ensure the integrity and authenticity of the research.
+Originally coined by Nick Szabo, "Smart Contracts" are electronic agreements that are immutable and transparent,
+and deployed on a decentralised blockchain. Meaning they cannot be altered, automatically execute everyone can analyse them.
+the terms of the agreement. By utilising the trust that smart contracts provide it will enable researchers to
+contribute, publish and peer-review articles removing the ability for manipulation and bias towards results,
+by moving the actions of reviewers and researchers to a proof-of-work model on a blockchain. Benefits of
+this is there will be no need for a subscription/fee based model for accessing research as the researchers
+themselves will own the rights to their own work by staking them on the blockchain and also researchers and
+Academics will be able to earn passive income off the favourable and positive contributions to the emerging
+consensus.
 
-Access to published articles: Decentralisation could be used to create a more equitable and accessible system for accessing published articles. For example, a decentralised platform could be used to allow researchers and students to access articles in exchange for a small fee or using a cryptocurrency.
+Currently, the peer-review process is controlled by publishers. If this process were to be decentralised, it would be fascinating to see the outcome.
 
-Data sharing: Blockchain technology could be used to create a secure and transparent system for sharing research data, helping to ensure that data is properly cited and credit is given to the appropriate parties.
+- Peer review: Blockchain technology could be used to create a decentralised peer review system that is more transparent and less vulnerable to bias. Smart contracts could be used to automate the review process and ensure that reviewers are fairly compensated for their work.
 
-Predatory journals: Decentralization and smart contracts could be used to create a more transparent and accountable system for identifying and combating predatory journals, which are journals that publish low-quality or fraudulent research in exchange for a fee.
+- Article publishing: Smart contracts could be used to automate the article publishing process, enabling articles to be published and disseminated more quickly and efficiently. Blockchain technology could be used to create a secure, tamper-proof record of the published articles, helping to ensure the integrity and authenticity of the research.
+
+- Access to published articles: Decentralisation could be used to create a more equitable and accessible system for accessing published articles. For example, a decentralised platform could be used to allow researchers and students to access articles in such a way that the library of journals could be stored in a graph that could never be taken down as long as nodes exist to host the material in a bitTorrent-like fashion. This would ensure the science becoming a public good rather than limiting access behind paywalls.
+
+- Data sharing: Blockchain technology could be used to create a secure and transparent system for sharing research data, helping to ensure that data is properly cited and credit is given to the appropriate parties.
+
+- Predatory journals: Decentralization and smart contracts could be used to create a more transparent and accountable system for identifying and combating predatory journals, which are journals that publish low-quality or fraudulent research in exchange for a fee.
 
 ## Goals and Requirements
 
@@ -146,7 +153,7 @@ Some potential requirements for a decentralised application (dApp) for a scienti
 
 These are just some potential requirements for a dApp for a scientific journal project. Depending on the specific goals and requirements of the project as it evolves, there may be other requirements that are important to consider.
 
-# Exploratory Analysis
+# Exploratory Analysis and Research
 
 The first half of this section is research and an exploration of tech,
 leading to the developmental approach to be taken i.e. Agile, TDD etc.
@@ -180,6 +187,41 @@ In the early 1990s, the first peer-to-peer file sharing networks began to emerge
 In recent years, peer-to-peer technology has continued to evolve and is now used in a variety of applications, including social networking, streaming video, and distributed computing. It is also a key component of blockchain technology, which allows decentralised networks to operate without a central authority **(White, 2018)**.
 
 Overall, peer-to-peer technology has a rich history and continues to play a significant role in the development of networking and computing technology.
+
+## Blockchain
+Blockchain is a distributed, decentralised, digital ledger that is used to record and verify transactions in a secure and transparent manner that uses a chain of cryptographic hashes to store and verify transactions. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, and it has a number of important characteristics and features.. It is typically implemented as a chain of blocks, where each block contains a number of transactions and a cryptographic "hash" that links it to the previous block in the chain. Each of these transactions are verified and validated by a network of nodes, which use consensus algorithms to ensure that the data in the blockchain is accurate and consistent.
+
+The fundamental property of a blockchain is its immutability, which means that once a block has been added to the chain, it cannot be altered or removed. This is achieved through the use of cryptographic techniques, such as digital signatures and hash functions, which ensure the integrity and security of the data in the blockchain. **(Nakamoto, 2006)**
+
+Each block in a blockchain is linked to the previous block through the use of a cryptographic hash, which ensures the integrity and security of the data in the chain. This allows for a tamper-evident and immutable ledger, as any attempts to alter or manipulate the data in a block would be easily detected.
+
+Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralised model allows for greater transparency, security, and resilience, as it is not dependent on any single entity **(Nakamoto, 2006)**
+.
+
+Blockchain also uses public-key cryptography to secure transactions and protect user privacy. Each user in a blockchain network has a unique pair of keys, a public key and a private key, which are used to sign and verify transactions. This ensures that only the user with the corresponding private key can access and control their data in the blockchain.
+
+Overall, blockchain is a powerful and innovative technology that has the potential to revolutionize a wide range of industries and applications. It is already being used in a variety of contexts, including finance, supply chain management, and digital identity.
+
+### Consensus algorithms
+A consensus algorithm is a mathematical protocol that is used by nodes in a distributed network to reach agreement on the contents of a blockchain. It is an essential part of the blockchain, as it ensures that the data in the blockchain is accurate and consistent across all nodes in the network.
+
+Consensus algorithms can take many forms, but they all share the same goal of allowing nodes in the network to reach agreement on the state of the blockchain in a decentralised and trustless manner.
+
+One common example of a consensus algorithm is proof-of-work (PoW), which is used by the Bitcoin network. In a PoW-based blockchain, nodes compete to solve a mathematical puzzle by hashing a block of transactions and trying to find a solution that meets a certain criteria. The first node to find a valid solution is allowed to add the block to the blockchain and is rewarded with a certain number of tokens.
+
+Another example of a consensus algorithm is proof-of-stake (PoS), which is used by the Cosmos and recently the Ethereum network. In a PoS-based blockchain, nodes are chosen to add blocks to the blockchain based on their stake, or the amount of tokens they hold in the network. The higher the stake, the higher the probability that a node will be chosen to add a block.
+
+Overall, consensus algorithms are a crucial part of the blockchain, as they allow nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
+
+The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralised and trustless manner **(Nakamoto, 2006)**.
+
+The mathematical puzzle that is solved by the nodes in a PoW-based blockchain is typically a computational problem that is difficult to solve but easy to verify. For example, the Bitcoin network uses a problem called the "double SHA-256" hash, which requires nodes to find a number that, when hashed twice with the SHA-256 algorithm, produces a result that is less than a certain target value.
+
+The mathematical calculation behind the selection of nodes in a PoS-based blockchain is typically a random number generation algorithm, which is used to determine the probability of a node being chosen to add a block based on its stake. This ensures that the selection process is fair and unbiased, and that nodes with a higher stake have a higher probability of being chosen.
+
+The mathematics behind consensus algorithms is a crucial part of the blockchain, as it allows nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
+
+
 
 ## Interplanetary File System
 The Interplanetary File System, or IPFS, is a decentralised, peer-to-peer protocol for sharing and storing files. It was developed by Protocol Labs, a research, development, and deployment laboratory, in 2015.
@@ -227,39 +269,6 @@ OrbitDB has a number of unique features and advantages, including built-in confl
 
 Overall, OrbitDB is a powerful and innovative database solution that is well-suited for decentralised and peer-to-peer applications. **(3box, n.d.)**
 
-## Blockchain
-Blockchain is a distributed, decentralised, digital ledger that is used to record and verify transactions in a secure and transparent manner that uses a chain of cryptographic hashes to store and verify transactions. It is the underlying technology behind cryptocurrencies like Bitcoin and Ethereum, and it has a number of important characteristics and features.. It is typically implemented as a chain of blocks, where each block contains a number of transactions and a cryptographic "hash" that links it to the previous block in the chain. Each of these transactions are verified and validated by a network of nodes, which use consensus algorithms to ensure that the data in the blockchain is accurate and consistent.
-
-The fundamental property of a blockchain is its immutability, which means that once a block has been added to the chain, it cannot be altered or removed. This is achieved through the use of cryptographic techniques, such as digital signatures and hash functions, which ensure the integrity and security of the data in the blockchain. **(Nakamoto, 2006)**
-
-Each block in a blockchain is linked to the previous block through the use of a cryptographic hash, which ensures the integrity and security of the data in the chain. This allows for a tamper-evident and immutable ledger, as any attempts to alter or manipulate the data in a block would be easily detected.
-
-Another key feature of blockchain technology is its distributed nature, which means that it is not controlled by any central authority or intermediary. Instead, it relies on a network of nodes, or participants, who maintain and validate the blockchain. This decentralised model allows for greater transparency, security, and resilience, as it is not dependent on any single entity **(Nakamoto, 2006)**
-.
-
-Blockchain also uses public-key cryptography to secure transactions and protect user privacy. Each user in a blockchain network has a unique pair of keys, a public key and a private key, which are used to sign and verify transactions. This ensures that only the user with the corresponding private key can access and control their data in the blockchain.
-
-Overall, blockchain is a powerful and innovative technology that has the potential to revolutionize a wide range of industries and applications. It is already being used in a variety of contexts, including finance, supply chain management, and digital identity.
-
-### Consensus algorithms
-A consensus algorithm is a mathematical protocol that is used by nodes in a distributed network to reach agreement on the contents of a blockchain. It is an essential part of the blockchain, as it ensures that the data in the blockchain is accurate and consistent across all nodes in the network.
-
-Consensus algorithms can take many forms, but they all share the same goal of allowing nodes in the network to reach agreement on the state of the blockchain in a decentralised and trustless manner.
-
-One common example of a consensus algorithm is proof-of-work (PoW), which is used by the Bitcoin network. In a PoW-based blockchain, nodes compete to solve a mathematical puzzle by hashing a block of transactions and trying to find a solution that meets a certain criteria. The first node to find a valid solution is allowed to add the block to the blockchain and is rewarded with a certain number of tokens.
-
-Another example of a consensus algorithm is proof-of-stake (PoS), which is used by the Cosmos and recently the Ethereum network. In a PoS-based blockchain, nodes are chosen to add blocks to the blockchain based on their stake, or the amount of tokens they hold in the network. The higher the stake, the higher the probability that a node will be chosen to add a block.
-
-Overall, consensus algorithms are a crucial part of the blockchain, as they allow nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
-
-The mathematics behind consensus algorithms varies depending on the specific algorithm being used. However, they all share the same goal of allowing nodes in a distributed network to reach agreement on the state of a blockchain in a decentralised and trustless manner **(Nakamoto, 2006)**.
-
-The mathematical puzzle that is solved by the nodes in a PoW-based blockchain is typically a computational problem that is difficult to solve but easy to verify. For example, the Bitcoin network uses a problem called the "double SHA-256" hash, which requires nodes to find a number that, when hashed twice with the SHA-256 algorithm, produces a result that is less than a certain target value.
-
-The mathematical calculation behind the selection of nodes in a PoS-based blockchain is typically a random number generation algorithm, which is used to determine the probability of a node being chosen to add a block based on its stake. This ensures that the selection process is fair and unbiased, and that nodes with a higher stake have a higher probability of being chosen.
-
-The mathematics behind consensus algorithms is a crucial part of the blockchain, as it allows nodes in the network to reach agreement on the state of the blockchain and ensure the integrity and security of the data.
-
 ## Smart Contracts and Solidity
 
 Smart contracts are self-executing contracts with the terms of the agreement between buyer and seller being directly written into lines of code. They are a key component of the Ethereum blockchain and are used to facilitate, verify, and enforce the negotiation or performance of a contract.
@@ -294,7 +303,8 @@ Creating a scientific journal on the Ethereum blockchain using smart contracts i
 ## Development cycle
 
 ### Use Case Diagram
-[Insert Diagram Here]
+
+![Use Case Diagram](imgs/ucd.png)
 
 In this diagram, the main actors are the Researchers, who submit their papers to the journal, and the Reviewers, who evaluate the papers and provide feedback. The Ethereum blockchain and the smart contract are the main system components, and they are used to manage and enforce the submission and review process.
 
@@ -361,20 +371,27 @@ To use continuous integration and development for the journal project, the follo
 
 Utilising continuous integration and development practices for the scientific journal project can help to improve the quality and speed of the journal's development and deployment, and provide a more reliable and user-friendly platform for researchers and reviewers.
 
-## Technologies
+## Technologies and Application Architecture
 
-### Ethers.js
-Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and decentralised applications (dApps). It is designed to be easy to use and provides a range of tools and features for developers, including support for signing and sending transactions, querying the blockchain, and interacting with smart contracts.
+![Architecture Diagram](imgs/Architecture.png)
 
-Ethers.js is developed and maintained by Ethers.io, a company that provides tools and services for the Ethereum ecosystem. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
+### Frontend development Next.js
 
-To use Ethers.js, developers typically include the library in their project and use its APIs to interact with the Ethereum blockchain and dApps. For example, they can use the library to create and sign transactions, query the blockchain for information, or interact with smart contracts.
+Next.js is a popular open-source JavaScript framework for building server-rendered or statically-exported React applications. It was developed by the company Vercel (formerly known as Zeit) and is designed to make it easy for developers to create performant, scalable web applications.
 
-Ethers.js is designed to be lightweight and modular, allowing developers to include only the features and functionality they need in their projects. It also has support for multiple Ethereum networks, including the mainnet, testnets, and private networks, making it versatile and easy to use in a variety of contexts.
+One of the key features of Next.js is its ability to automatically optimize the performance of your application by server-rendering the initial HTML and CSS for each page, and then hydrating the page on the client side with React. This allows your application to load faster and provide a better user experience, especially on slower devices or networks.
 
-Ethers.js is a powerful and well-designed library for interacting with the Ethereum blockchain and dApps, and it is a popular choice among Ethereum developers.
+Next.js also provides a simple way to build and deploy your application, with features like automatic code splitting, automatic optimization of assets, and support for serverless functions. It also integrates seamlessly with popular libraries and tools like GraphQL, Redux, and TypeScript.
+
+Starting a new project with Next.js is done by running:
+
+```sh
+$ npx create-next-app@latest
+
+```
 
 ### Metamask
+
 Metamask is a browser extension that allows users to interact with the Ethereum blockchain and decentralised applications (dApps). It is available for popular web browsers, including Google Chrome, Mozilla Firefox, and Microsoft Edge.
 
 Metamask provides a user-friendly interface for managing and using Ethereum accounts, signing and sending transactions, and interacting with dApps. It also includes a built-in wallet for storing and managing Ether and other Ethereum-based tokens.
@@ -385,7 +402,45 @@ Metamask also allows users to connect to multiple Ethereum networks, including t
 
 Metamask is a convenient and user-friendly tool for interacting with the Ethereum blockchain and dApps, and it is widely used by Ethereum users and developers.
 
+This is how a Researcher/Reviewer shall be identified in this system. More wallets will need to be added to the login system eventually but this will suffice for testing purposes and allow for easy access to the ethereum test networks.
+
+For testing, on the landing page the site checks if the user has Metamask installed and a component prompts the user to
+install Metamsk.
+
+```js
+const Install = () => {
+    return (
+        <div>
+            <h3>Follow the link to install</h3>
+            <a href="https://metamask.io/download.html">Meta Mask</a>
+        </div>
+    );
+};
+
+export default Install;
+
+```
+If the plugin is installed, then render the Home screen.
+
+```js
+import Install from './components/Install';
+import Home from './components/Home';
+
+function App() {
+
+    if (window.ethereum) {
+        return <Home />;
+    } else {
+        return <Install />
+    }
+}
+
+export default App;
+
+```
+
 ### Hardhat
+
 To use the Hardhat development environment in creating a scientific journal on the Ethereum blockchain using smart contracts in peer review, the following steps could be followed:
 
 Install the Hardhat development environment on your computer by following the instructions on the Hardhat website (https://hardhat.org/). This will include installing the Hardhat CLI and other dependencies, such as Node.js and the Solidity compiler.
@@ -400,6 +455,46 @@ Deploy the contract to an Ethereum network, such as the Rinkeby testnet, by usin
 
 Test and debug the contract by using the Hardhat environment and other tools, such as the Remix IDE and Truffle console. This will allow you to verify that the contract functions as expected and fix any issues or bugs that may arise.
 
+To begin using it in the project run
+
+```sh
+$ npx hardhat
+
+```
+This will be a JavaScript project instead of a TypeScript project.
+
+From this point a test/ folder is generate as well as a contracts/ folder. this is where the contracts and tests
+will be located. Compiliing and testing the contracts can be done with:
+
+```sh
+$ npx hardhat test
+
+$ npx hardhat compile
+
+```
+
+Connecting the wallet for testing as well as deploying the contracts can be handled using hardhat also, there is
+an example script in the scripts/ folder.
+
+### Ethers.js
+
+Ethers.js is a JavaScript library for interacting with the Ethereum blockchain and decentralised applications (dApps). It is designed to be easy to use and provides a range of tools and features for developers, including support for signing and sending transactions, querying the blockchain, and interacting with smart contracts.
+
+Ethers.js is developed and maintained by Ethers.io, a company that provides tools and services for the Ethereum ecosystem. It is open-source and available on GitHub, allowing anyone to contribute to its development or use it in their own projects.
+
+To use Ethers.js, developers typically include the library in their project and use its APIs to interact with the Ethereum blockchain and dApps. For example, they can use the library to create and sign transactions, query the blockchain for information, or interact with smart contracts.
+
+Ethers.js is designed to be lightweight and modular, allowing developers to include only the features and functionality they need in their projects. It also has support for multiple Ethereum networks, including the mainnet, testnets, and private networks, making it versatile and easy to use in a variety of contexts.
+
+Ethers.js is a powerful and well-designed library for interacting with the Ethereum blockchain and dApps, and it is a popular choice among Ethereum developers.
+
+The app uses ethers.js to interact with the user’s wallet and the blockchain, and is set up with:
+
+```sh
+$ npm install --save-dev ethers
+
+```
+
 ## Writing the contract
 
 In general, it's always a good idea to carefully review and test code before deploying a smart contract to the blockchain. This can help ensure that your contract is working as intended and does not contain any errors or vulnerabilities. There are a number of tools and resources available that can help with this process, such as online compilers, linters, and debugging tools.
@@ -413,6 +508,8 @@ It's also a good idea to make use of best practices when writing and deploying s
 - Using safe math functions to prevent overflow or underflow errors
 
 - Thoroughly testing your contract with a variety of different inputs and scenarios
+
+
 
 ### Solidity
 
@@ -532,8 +629,6 @@ Here are a few examples of how one could implement an ipfs.add function in the c
 
 - If the Ethereum Name Service (ENS) is used to resolve IPFS hashes to human-readable names, you can use the ens-js library to resolve IPFS hashes to ENS names and then use the ipfs.add function provided by the ens-js library to add entries to IPFS.
 
-# Results
-
 
 # Discussion
 
@@ -559,7 +654,10 @@ In terms of some additional requirements to the project from this point in it's 
 
 - Ensuring that the dApp follows best practices for smart contract development, such as properly handling errors and exceptions, implementing access controls, and using safe math functions.
 
-These are just some potential requirements that may be important to consider when developing a dApp for a scientific journal project. Depending on the specific goals and needs of your project, there may be other requirements that are important to consider..
+These are just some potential requirements that may be important to consider when developing a dApp for a scientific journal project. Depending on the specific goals and needs of the project, there may be other requirements that are important to consider. Finally, a consideration that may be required is the dividing and refactoring of the single monolithic contract into subcontracts, where each action will be it's own seperate contract though the gas cost of this level of abstration may make the endeavour inefficient, this requires much further development and testing.
+
+OpenZeppelin was underutilised in the generation of the smart-contract and may be used in the approach from here on, It is
+a library of smart contracts that have been well tested and includes the most used implementations of ERC standards.
 
 # Conclusion
 
@@ -568,6 +666,19 @@ The idea of using decentralised applications (dApps) and the Ethereum blockchain
 There are many potential directions that this project could take to move forward and build on these ideas. For example, the project could focus on developing and implementing a user-friendly dApp that makes it easy for researchers and reviewers to submit and review papers, as well as for journal editors to manage the publication process. The project could also focus on integrating the dApp with the Ethereum blockchain and decentralised storage solutions like IPFS, to ensure that information is properly stored and accessed on the blockchain. Additionally, the project could explore other potential applications of the Ethereum blockchain and smart contracts in the context of academic publishing, such as using tokens to incentivize good behavior or using decentralised governance mechanisms to manage the journal.
 
 These are just some potential directions that the project could take to move forward and build on the initial premise. Ultimately, the specific direction and focus of the project will depend on the goals and needs of the project team and stakeholders.
+
+Like any new technology, this platform will face a number of challenges and issues that need to be addressed in order to be successful.
+
+One of the biggest challenges to face is getting it adopted by the academic community. Researchers and scholars are
+typically very hesitant to change the way they publish and dissemniate their research, and it may take some time for a decentralised platrform to gain the acceptance and credibility within the academic community.
+
+Quality control: Ensuring the quality and credibility of research published on a decentralised platform is another key challenge. The Decentralised platform may need to implement robust peer review processes and other quality control measures in order to ensure the integrity and reliability of the research that is published.
+
+User experience: The Decentralised platform may also face challenges in terms of user experience, as they may be less intuitive and user-friendly than a traditional publishing platform. This could make it more difficult for researchers and scholars to use this platform and may limit their adoption.
+
+Funding: Finally, The system may also face challenges in terms of funding. Many journals and publishing platforms rely on funding from sponsors or grants, and it can be difficult to secure sufficient funding to support the ongoing operation and development.
+
+Overall, decentralised journals and publishing platforms represent an exciting new direction for academic publishing, but they also face a number of significant challenges that need to be addressed in order to be successful.
 
 # Bibliography
 
